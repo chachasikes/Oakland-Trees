@@ -1,0 +1,83 @@
+This is just for reference, some of these are errors.
+
+___
+	
+	
+ 
+Reuse	This project	grel:	"http://maps.googleapis.com/maps/api/geocode/json?address="+ cells['ADDRNUM'].value +"+" + escape(cells['STNAME'].value, 'url') + "+Oakland+CA&sensor=false"
+ 
+Reuse	Other projects	grel:	cells["common_name"].value
+ 
+Reuse	Other projects	grel:	"Unknown"
+ 
+Reuse	Other projects	grel:	"http://data.openoakland.org/dataset/trees"
+ 
+Reuse	Other projects	grel:	value + " " + cells['zipcode'].value
+ 
+Reuse	Other projects	grel:	cells['geocoded_2'].value.parseJson().results[0]['address_components'][8]['long_name']
+ 
+Reuse	Other projects	grel:	cells['geocoded_2'].value.parseJson().results[0]['address_components'][7]['long_name']
+ 
+Reuse	Other projects	grel:	cells['geocoded_2'].value.parseJson().results[0].geometry.location.lat
+ 
+Reuse	Other projects	grel:	cells['geocoded_2'].value.parseJson().results[0].geometry.location.lng
+ 
+Reuse	Other projects	grel:	value
+ 
+Reuse	Other projects	grel:	cells['ADDRNUM'].value + " " + cells['STNAME'].value + " Oakland, CA "
+ 
+Reuse	Other projects	grel:	"Citrus"
+ 
+Reuse	Other projects	grel:	"yes"
+ 
+Reuse	Other projects	grel:	cells['species_root'].value
+ 
+Reuse	Other projects	grel:	cell.cross("California Rare Fruit List Sheet1 csv json", "scientific_name").cells ["name"].value[0]
+ 
+Reuse	Other projects	grel:	replace(value, " sp", " IGNORE")
+ 
+Reuse	Other projects	grel:	replace(value, " sp", "")
+ 
+Reuse	Other projects	grel:	cell.cross("openfood_4_7_12 json", "scientific_name").cells ["name"].value[0]
+ 
+Reuse	Other projects	grel:	"Carolina Cherry Laurel"
+ 
+Reuse	Other projects	grel:	"Citrus species"
+ 
+Reuse	Other projects	grel:	cells['geocoded'].value.parseJson().results[0]['address_components'][8]['long_name']
+ 
+Reuse	Other projects	grel:	value.parseJson().results[0]['address_components'][7]['long_name']
+ 
+Reuse	Other projects	grel:	cells['ADDRNUM'].value + " " + value + " Oakland, CA"
+ 
+Reuse	Other projects	grel:	value.parseJson().results[0].geometry.location.lng
+ 
+Reuse	Other projects	grel:	value.parseJson().results[0].geometry.location.lat
+ 
+Reuse	Other projects	grel:	"http://maps.googleapis.com/maps/api/geocode/json?address="+ cells['ADDRNUM'].value +"+" + escape(value, 'url') + "+Oakland+CA&sensor=false"
+ 
+Reuse	Other projects	grel:	"http://maps.googleapis.com/maps/api/geocode/json?address="+ cells['ADDRNUM'].value +"+" + value + "+Oakland+CA&sensor=false"
+ 
+Reuse	Other projects	grel:	"http://maps.googleapis.com/maps/api/geocode/json?address="+ cells['ADDRNUM'].value +"+" + value + "+Oakland,+CA&sensor=false"
+ 
+Reuse	Other projects	grel:	cell.cross("field_data_field_image_html csv", "entity_id").cells["field_image_html_value"].value[0]
+ 
+Reuse	Other projects	grel:	replace(value, "$", "")
+ 
+Reuse	Other projects	grel:	split(value, "median price of ")[1]
+ 
+Reuse	Other projects	grel:	split(value, "houses")[0]
+ 
+Reuse	Other projects	grel:	replace(split(replace(value, "Females:", ""), "(")[1], ")", "")
+ 
+Reuse	Other projects	grel:	split(replace(value, "Females:", ""), "(")[0]
+ 
+Reuse	Other projects	grel:	split(replace(value, "Males:", ""), "(")[0]
+ 
+Reuse	Other projects	grel:	replace(replace(split(value, " ")[2], "(", ""), ")", "")
+ 
+Reuse	Other projects	grel:	replace(value, "Males:", "")
+ 
+Reuse	Other projects	grel:	"http://maps.googleapis.com/maps/api/geocode/json?address=" + replace(value, " ", "") + "&sensor=false"
+ 
+Reuse	Other projects	grel:	
