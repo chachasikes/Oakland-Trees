@@ -22,7 +22,7 @@ trees.setupMap = function() {
 
   trees.map = map = new MM.Map("map-container", layer);
 
-  map.setCenterZoom(new MM.Location(37.82985,-122.364349), 12);
+  map.setCenterZoom(new MM.Location(37.7900,-122.1697), 12);
 
   // On map move events we want to requery the database to fetch features that the map is now over
 
