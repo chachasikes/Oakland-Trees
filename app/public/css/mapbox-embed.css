@@ -1,0 +1,368 @@
+/* From http://a.tiles.mapbox.com/lib/mm/embed.css */
+.marker-tooltip {
+  z-index:999999;
+  position:absolute;
+  }
+.marker-popup {
+  position:relative;
+  left:-50%;
+  max-width:400px;
+  background:#fff;
+  border:2px solid #ccc;
+  color:#000;
+  padding:20px;
+  -webkit-user-select:auto;
+     -moz-user-select:auto;
+          user-select:auto;
+  -webkit-box-shadow: 2px 2px 5px -2px #ccc;
+          box-shadow: 2px 2px 5px -2px #ccc;
+  -webkit-border-radius:3px;
+          border-radius:3px;
+  }
+  .marker-popup:after,
+  .marker-popup:before {
+    top:100%;
+    border:solid transparent;
+    content:'';
+    height:0;
+    width:0;
+    left:50%;
+    position:absolute;
+    pointer-events:none;
+    }
+
+  .marker-popup:after {
+    border-top-color:#fff;
+    border-width:15px;
+    margin-left:-15px;
+    }
+
+  .marker-popup:before {
+    border-top-color:#ccc;
+    border-width:18px;
+    margin-left:-18px;
+    }
+
+.ts-map,
+.ts-error {
+  margin:0px;
+  padding:0px;
+  color:#222;
+  font:normal 13px/20px Arial,sans-serif;
+  }
+
+.ts-map a,
+.ts-error a {
+  color:#489;
+  text-decoration:none;
+  }
+
+.ts-map small { font-size:11px; }
+
+.ts-map h1,
+.ts-map h2,
+.ts-map h3,
+.ts-map h4,
+.ts-map h5,
+.ts-map h6 { font-size:16px; }
+
+.ts-map h1,
+.ts-map h2,
+.ts-map h3,
+.ts-map h4,
+.ts-map h5,
+.ts-map h6,
+.ts-map p { margin:0px 0px 10px; }
+
+/* ### General control styles ### */
+.ts-map .close,
+.ts-map .share,
+.ts-map .zoomer,
+.ts-map .wax-legend,
+.ts-map .wax-tooltip,
+.ts-map .wax-share div,
+.ts-map .wax-share .twitter,
+.ts-map .wax-share .facebook {
+  display:block;
+  position:absolute;
+  z-index:99999;
+  border:1px solid #ccc;
+  background:#fff;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  box-shadow:rgba(0,0,0,0.1) 0px 1px 3px;
+  -moz-box-shadow:rgba(0,0,0,0.1) 0px 1px 3px;
+  -webkit-box-shadow:rgba(0,0,0,0.1) 0px 1px 3px;
+  }
+
+/* ### Tooltips, legends ### */
+.ts-map .wax-legends,
+.ts-map .wax-tooltip {
+  position:absolute;
+  z-index:999998;
+  right:10px;
+  }
+
+.ts-map .wax-legends { bottom:10px; }
+.ts-map .wax-tooltip { top:10px; }
+
+.ts-map .wax-legend,
+.ts-map .wax-tooltip {
+  padding:4px 9px;
+  min-width:180px;
+  max-width:280px;
+  max-height:400px;
+  overflow:auto;
+  width:220px\9; /* IE 8 and below */
+  }
+
+.ts-map .wax-legend { position:relative; }
+
+/* ### Zoomer, close buttons, share ### */
+.ts-map .close,
+.ts-map .zoomer {
+  text-indent:-9999px;
+  background-image:url(http://a.tiles.mapbox.com/lib/mm/assets/tilestream-pro/images/controls.png);
+  background-position:60px 60px;
+  background-repeat:no-repeat;
+  overflow:hidden;
+  }
+
+.ts-map .close:active,
+.ts-map .zoomer:active {
+  border-color:#bbb;
+  background-color:#ddd;
+  box-shadow:inset rgba(0,0,0,0.1) 0px 1px 3px;
+  -moz-box-shadow:inset rgba(0,0,0,0.1) 0px 1px 3px;
+  -webkit-box-shadow:inset rgba(0,0,0,0.1) 0px 1px 3px;
+  }
+
+.ts-map .close {
+  top:4px;
+  right:4px;
+  width:18px;
+  height:18px;
+  background-position:-6px -6px;
+  }
+
+.ts-map .zoomer {
+  width:28px;
+  height:28px;
+  top:10px;
+  left:10px;
+  }
+
+.ts-map .zoomin {
+  background-position:-31px -1px;
+  left:39px;
+  border-radius:0px 3px 3px 0px;
+  -moz-border-radius:0px 3px 3px 0px;
+  -webkit-border-radius:0px 3px 3px 0px;
+  }
+
+.ts-map .zoomout {
+  background-position:-61px -1px;
+  border-radius:3px 0px 0px 3px;
+  -moz-border-radius:3px 0px 0px 3px;
+  -webkit-border-radius:3px 0px 0px 3px;
+  }
+
+.ts-map .share {
+  clear:left;
+  left:10px;
+  top:10px;
+  width:57px;
+  height:18px;
+  font:bold 10px/18px Arial,sans-serif;
+  text-align:center;
+  text-transform:uppercase;
+  background:#333;
+  background:rgba(32,32,32,0.75);
+  border-color:#666;
+  border-color:rgba(128,128,128,0.75);
+  color:#fff;
+  }
+
+.ts-map.zoompan .share { top:45px; }
+
+/* ### Zoombox ### */
+.ts-map .zoombox-box,
+.ts-map .boxselector-box {
+  border:1px dashed #888;
+  background:rgba(255,255,255,0.25);
+  position:absolute;
+  top:0px; left:0px; width:0px; height:0px;
+  display:none;
+  }
+
+/* ### Attribution ### */
+.ts-map .wax-attribution {
+  position:absolute;
+  background:#fff;
+  font:normal 10px/20px Arial,sans-serif;
+  z-index:99999;
+  text-align:center;
+  padding:0px 5px;
+  bottom:0px;
+  left:0px;
+  }
+
+.ts-map .wax-attribution.wax-g {
+  left:65px;
+  bottom:4px;
+  background:transparent;
+  }
+
+/* ### Share ### */
+.ts-error,
+.ts-map .wax-share {
+  background:#666;
+  background:rgba(32,32,32,0.75);
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0px; left:0px; right:0px; bottom:0px;
+  z-index:999999;
+  }
+
+.ts-map .wax-share div {
+  right:50%;
+  top:50%;
+  margin:-120px -180px 0px 0px;
+  padding:19px;
+  width:320px;
+  height:200px;
+  overflow:hidden;
+  }
+
+.ts-map .wax-share small { color:#999; }
+
+.ts-map .wax-share textarea {
+  display:block;
+  font:normal 10px/15px Arial,sans-serif;
+  resize:none;
+  border:1px solid #ccc;
+  padding:4px;
+  width:310px;
+  }
+
+.ts-map .wax-share .twitter,
+.ts-map .wax-share .facebook {
+  display:inline-block;
+  position:relative;
+  padding:2px 18px;
+  margin-right:10px;
+  background:#fff;
+  color:#fff;
+  font-weight:bold;
+  border:2px solid #ccc;
+  }
+
+.ts-map .wax-share .twitter {
+  background:#0ac;
+  border-color:#4ce;
+  }
+
+.ts-map .wax-share .facebook {
+  background:#359;
+  border-color:#68c;
+  }
+
+/* ### Google maps adjustments ### */
+.ts-map.g .share {
+  position:absolute;
+  left:5px;
+  top:5px;
+  z-index:1000;
+  }
+
+.ts-map.g.zoompan .share { left:30px; top:15px; }
+
+/* ### Error message ### */
+.ts-error .error-message {
+  background:#fff;
+  position:absolute;
+  right:50%;
+  top:50%;
+  margin:-50px -110px 0px 0px;
+  padding:10px 0px;
+  height:80px;
+  width:220px;
+  color:#999;
+  text-align:center;
+  font-weight:bold;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  box-shadow:#fff 0px 0px 40px;
+  -moz-box-shadow:#fff 0px 0px 40px;
+  -webkit-box-shadow:#fff 0px 0px 40px;
+  }
+
+.ts-error .mapbox-logo {
+  display:block;
+  width:140px;
+  height:40px;
+  margin:5px auto;
+  background:url(http://a.tiles.mapbox.com/lib/mm/assets/tilestream-pro/images/controls.png) 0px -40px no-repeat;
+  }
+
+.ts-map .mapbox-watermark {
+  position:absolute;
+  left:5px;
+  bottom:5px;
+  z-index:99999;
+  display:block;
+  width:65px;
+  height:20px;
+  text-indent:-9999px;
+  overflow:hidden;
+  background:url(http://a.tiles.mapbox.com/lib/mm/assets/tilestream-pro/images/controls.png) 0px -90px no-repeat;
+  }
+
+.ts-map.attribution .mapbox-watermark { bottom:25px; }
+
+/**
+ * mmg markers ================================================================
+ */
+.wax-intip {
+  padding:10px;
+  border:1px solid #ccc;
+  }
+
+.wax-intip:after {
+	border-width:10px;
+	margin-left:-10px;
+  }
+
+.wax-intip:before {
+	border-width:12px;
+	margin-left:-12px;
+  }
+.wax-intip .mmg-title {
+  font-weight:bold;
+  }
+/*
+body {
+  margin:0px;
+  padding:0px;
+  }
+*/
+
+.ts-map {
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  }
+
+/* Override image location */
+.ts-map .zoomer,
+.ts-map .close,
+.ts-map .mapbox-watermark,
+.ts-error .mapbox-logo { background-image:url(http://a.tiles.mapbox.com/lib/mm/embed.png); }
+

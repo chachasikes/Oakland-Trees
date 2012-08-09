@@ -1,0 +1,3568 @@
+{"name": "farmers_markets","type":"FeatureCollection","features":[
+{
+  "id" :  "2004449",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.309, 37.5433]
+    },
+  "properties": {
+      "id" : 2004449,
+      "type": "Farmer's Market",
+      "name" : "25th Avenue Farmers' Market",
+      "url" : null,
+      "address_street" : "194 W. 25th Ave (Church Parking Lot)",
+      "city" : "San Mateo",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.309,
+      "latitude" : 37.5433
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002737",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.277, 37.7722]
+    },
+  "properties": {
+      "id" : 2002737,
+      "type": "Farmer's Market",
+      "name" : "Alameda CFM",
+      "url" : "http://www.pcfma.com/marketdetail.php?market_id=1",
+      "address_street" : "Height Avenue and Webster Street",
+      "city" : "Alameda",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94520,
+      "longitude" : -122.277,
+      "latitude" : 37.7722
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1002557",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.928, 36.9888]
+    },
+  "properties": {
+      "id" : 1002557,
+      "type": "Farmer's Market",
+      "name" : "Aptos Farmers Market",
+      "url" : "http://montereybayfarmers.org",
+      "address_street" : "Soquel Drive, Cabrillo College",
+      "city" : "aptos",
+      "county" : "Santa Cruz",
+      "state" : "California",
+      "zipcode" : 95003,
+      "longitude" : -121.928,
+      "latitude" : 36.9888
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003601",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.274, 37.5186]
+    },
+  "properties": {
+      "id" : 2003601,
+      "type": "Farmer's Market",
+      "name" : "Belmont CFM",
+      "url" : "http://www.pcfma.com?marketdetail.php?market_id",
+      "address_street" : "El Camino Rreal & O'Neil Street",
+      "city" : "Belmont",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94520,
+      "longitude" : -122.274,
+      "latitude" : 37.5186
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2001231",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.346, 37.5773]
+    },
+  "properties": {
+      "id" : 2001231,
+      "type": "Farmer's Market",
+      "name" : "Burlingame Fresh Market Farmers Market",
+      "url" : "http://www.burlingamechamber.org",
+      "address_street" : "Howard Ave. & Park",
+      "city" : "Burlingame",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94010,
+      "longitude" : -122.346,
+      "latitude" : 37.5773
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003163",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.577, 38.581]
+    },
+  "properties": {
+      "id" : 2003163,
+      "type": "Farmer's Market",
+      "name" : "Calistoga Farmers Market",
+      "url" : null,
+      "address_street" : "1546 Lincoln Avenue",
+      "city" : "Calistoga",
+      "county" : "Napa",
+      "state" : "California",
+      "zipcode" : 94515,
+      "longitude" : -122.577,
+      "latitude" : 38.581
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2000622",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.433, 37.765]
+    },
+  "properties": {
+      "id" : 2000622,
+      "type": "Farmer's Market",
+      "name" : "Castro Farmers' Market",
+      "url" : "http://www.pcfma.com",
+      "address_street" : "250 Noe St.",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.433,
+      "latitude" : 37.765
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003464",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [null, null]
+    },
+  "properties": {
+      "id" : 2003464,
+      "type": "Farmer's Market",
+      "name" : "Clayton CFM",
+      "url" : null,
+      "address_street" : "Diablo Road",
+      "city" : "Clayton",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : null,
+      "latitude" : null
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1001304",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.433, 37.4644]
+    },
+  "properties": {
+      "id" : 1001304,
+      "type": "Farmer's Market",
+      "name" : "Coastside Farmers' Market in Half Moon Bay",
+      "url" : "http://www.coastsidefarmersmarket.org",
+      "address_street" : "225 Cabrillo Hwy S",
+      "city" : "Half Moon Bay",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94019,
+      "longitude" : -122.433,
+      "latitude" : 37.4644
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1001304",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.495, 37.6094]
+    },
+  "properties": {
+      "id" : 1001304,
+      "type": "Farmer's Market",
+      "name" : "Coastside Farmers' Market in Half Moon Bay",
+      "url" : "http://www.coastsidefarmersmarket.org",
+      "address_street" : "400 Old County Road",
+      "city" : "Pacifica",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94044,
+      "longitude" : -122.495,
+      "latitude" : 37.6094
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2000216",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.496, 37.6088]
+    },
+  "properties": {
+      "id" : 2000216,
+      "type": "Farmer's Market",
+      "name" : "Coastside Farmers' Market of Pacifca",
+      "url" : "http://www.coastsidefarmersmarket.org/",
+      "address_street" : "200 Rockaway Beach Avenue",
+      "city" : "Pacifica",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94044,
+      "longitude" : -122.496,
+      "latitude" : 37.6088
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004355",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.335, 37.5339]
+    },
+  "properties": {
+      "id" : 1004355,
+      "type": "Farmer's Market",
+      "name" : "College of San Mateo Certified Farmers' Market",
+      "url" : "http://pcfma.com/market_home.php?market_id=15",
+      "address_street" : "1700 W. Hillsdale Blvd.",
+      "city" : "San Mateo",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94402,
+      "longitude" : -122.335,
+      "latitude" : 37.5339
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003209",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.041, 37.9783]
+    },
+  "properties": {
+      "id" : 2003209,
+      "type": "Farmer's Market",
+      "name" : "Concord CFM",
+      "url" : "http://www.pcfma.com/marketdetail.php?market_id=3",
+      "address_street" : "Willow Pass and Grant Streets",
+      "city" : "Concord",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94520,
+      "longitude" : -122.041,
+      "latitude" : 37.9783
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002349",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.551, 38.0703]
+    },
+  "properties": {
+      "id" : 2002349,
+      "type": "Farmer's Market",
+      "name" : "Corte Madera Farmers Market",
+      "url" : null,
+      "address_street" : "Town Center Central Courtyard",
+      "city" : "Novato",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94949,
+      "longitude" : -122.551,
+      "latitude" : 38.0703
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003984",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.706, 38.3266]
+    },
+  "properties": {
+      "id" : 1003984,
+      "type": "Farmer's Market",
+      "name" : "Cotati Farmers' Market",
+      "url" : "http://cotati.org",
+      "address_street" : "W Sierra Ave and Old Redwood Hwy",
+      "city" : "Cotati",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 94931,
+      "longitude" : -122.706,
+      "latitude" : 38.3266
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002658",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.48, 37.6811]
+    },
+  "properties": {
+      "id" : 2002658,
+      "type": "Farmer's Market",
+      "name" : "Daly City Farmers Market",
+      "url" : "http://Doug@CAFarmersmkts.com",
+      "address_street" : "Serramonte Center, Behind Montgomery Ward",
+      "city" : "Daly City",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.48,
+      "latitude" : 37.6811
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003944",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.003, 37.8315]
+    },
+  "properties": {
+      "id" : 1003944,
+      "type": "Farmer's Market",
+      "name" : "Danville Farmers' Market",
+      "url" : "http://www.pcfma.com/market_home.php?market_id=4",
+      "address_street" : "Corner of Prospect Ave. and Railroad Ave.",
+      "city" : "Danville",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94526,
+      "longitude" : -122.003,
+      "latitude" : 37.8315
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1005930",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.027, 37.9284]
+    },
+  "properties": {
+      "id" : 1005930,
+      "type": "Farmer's Market",
+      "name" : "Diablo Valley Farmers' Market",
+      "url" : "http://cafarmersmkts.com/markets/category/diablo-valley",
+      "address_street" : "Mitchell Dr. & N. Wiget Lane",
+      "city" : "Walnut Creek",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94598,
+      "longitude" : -122.027,
+      "latitude" : 37.9284
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004378",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.438, 37.7757]
+    },
+  "properties": {
+      "id" : 1004378,
+      "type": "Farmer's Market",
+      "name" : "Divisidero Certified Farmers' Market",
+      "url" : "http://pcfma.com/market_home.php?market_id=63",
+      "address_street" : "Grove Street",
+      "city" : "San Francisco, CA",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.438,
+      "latitude" : 37.7757
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1001946",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.272, 37.8696]
+    },
+  "properties": {
+      "id" : 1001946,
+      "type": "Farmer's Market",
+      "name" : "Downtown Berkeley Farmers' Market",
+      "url" : "http://www.ecologycenter.org/bfm",
+      "address_street" : "Center Street & Martin Luther King Jr., Way",
+      "city" : "Berkeley",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94702,
+      "longitude" : -122.272,
+      "latitude" : 37.8696
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004010",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.153, 37.7221]
+    },
+  "properties": {
+      "id" : 1004010,
+      "type": "Farmer's Market",
+      "name" : "Downtown San Leandro Certified Farmers' Market",
+      "url" : "http://www.pcfma.com",
+      "address_street" : "Parrott Street between E. 14th Street & Washington Ave.",
+      "city" : "San Leandro",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94577,
+      "longitude" : -122.153,
+      "latitude" : 37.7221
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2004448",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-123.989, 37.5629]
+    },
+  "properties": {
+      "id" : 2004448,
+      "type": "Farmer's Market",
+      "name" : "Downtown San Mateo Farmers' Market",
+      "url" : null,
+      "address_street" : "Wells Fargo Bank Parking Lot at the corner of 5th Ave and San Mateo Dr",
+      "city" : "San Mateo",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -123.989,
+      "latitude" : 37.5629
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2000416",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.528, 37.9733]
+    },
+  "properties": {
+      "id" : 2000416,
+      "type": "Farmer's Market",
+      "name" : "Downtown San Rafael Farmers' Market Festival",
+      "url" : "http://www.sanrafaelmarket.org",
+      "address_street" : "Fourth Street, San Rafael",
+      "city" : "San Rafael",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94901,
+      "longitude" : -122.528,
+      "latitude" : 37.9733
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002561",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-123.052, 38.4517]
+    },
+  "properties": {
+      "id" : 2002561,
+      "type": "Farmer's Market",
+      "name" : "Duncan Mills-West Sonoma Farmers Market",
+      "url" : null,
+      "address_street" : "25300 Steelhead Blvd.",
+      "city" : "Villa Grande",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95486,
+      "longitude" : -123.052,
+      "latitude" : 38.4517
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002351",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.187, 37.7591]
+    },
+  "properties": {
+      "id" : 2002351,
+      "type": "Farmer's Market",
+      "name" : "East Oakland Farmers Market",
+      "url" : null,
+      "address_street" : "73rd Ave. & International Blvd.",
+      "city" : "Oakland",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94621,
+      "longitude" : -122.187,
+      "latitude" : 37.7591
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004162",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.143, 37.465]
+    },
+  "properties": {
+      "id" : 1004162,
+      "type": "Farmer's Market",
+      "name" : "East Palo Alto Community Farmers Market",
+      "url" : "http://www.ymcasv.org/eastpaloalto/html/programs_farmersmarket.html",
+      "address_street" : "550 Bell Street",
+      "city" : "East Palo Alto",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94303,
+      "longitude" : -122.143,
+      "latitude" : 37.465
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1001952",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.299, 37.8899]
+    },
+  "properties": {
+      "id" : 1001952,
+      "type": "Farmer's Market",
+      "name" : "Ecology Center's Albany Farmers' Market",
+      "url" : "http://www.ecologycenter.org/bfm",
+      "address_street" : "Solano Avenue & San Pablo Avenue",
+      "city" : "Albany",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94706,
+      "longitude" : -122.299,
+      "latitude" : 37.8899
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002568",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.3, 37.8997]
+    },
+  "properties": {
+      "id" : 2002568,
+      "type": "Farmer's Market",
+      "name" : "El Cerrito Farmers Market",
+      "url" : "http://www.elcerritoplaza.com",
+      "address_street" : "El Cerrito Plaza",
+      "city" : "El Cerrito",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94596,
+      "longitude" : -122.3,
+      "latitude" : 37.8997
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003968",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.405, 38.4237]
+    },
+  "properties": {
+      "id" : 1003968,
+      "type": "Farmer's Market",
+      "name" : "Elk Grove Certified Farmers' Market",
+      "url" : "http://www.marketlocations.com",
+      "address_street" : "8217 Laguna Blvd",
+      "city" : "Elk Grove",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95758,
+      "longitude" : -121.405,
+      "latitude" : 38.4237
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003970",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.375, 38.393]
+    },
+  "properties": {
+      "id" : 1003970,
+      "type": "Farmer's Market",
+      "name" : "Elk Grove Park Certified Farmers' Market",
+      "url" : "http://www.marketlocations.com",
+      "address_street" : "Elk Grove Regional Park",
+      "city" : "Elk Grove",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95624,
+      "longitude" : -121.375,
+      "latitude" : 38.393
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003212",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.294, 37.844]
+    },
+  "properties": {
+      "id" : 2003212,
+      "type": "Farmer's Market",
+      "name" : "Emeryville Farmers Market",
+      "url" : null,
+      "address_street" : "Bay St. & Shelmound",
+      "city" : "Emeryville",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94608,
+      "longitude" : -122.294,
+      "latitude" : 37.844
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003655",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.59, 37.9857]
+    },
+  "properties": {
+      "id" : 1003655,
+      "type": "Farmer's Market",
+      "name" : "Fairfax Farmers Market",
+      "url" : "http://www.agriculturalinstitute.org",
+      "address_street" : "Bolinas Park",
+      "city" : "Fairfax",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94930,
+      "longitude" : -122.59,
+      "latitude" : 37.9857
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002670",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.063, 37.064]
+    },
+  "properties": {
+      "id" : 2002670,
+      "type": "Farmer's Market",
+      "name" : "Felton Farmers Market",
+      "url" : "http://www.feltonfarmersmarket.org",
+      "address_street" : "St. John's Church, Hwy. 9",
+      "city" : "Felton",
+      "county" : "Santa Cruz",
+      "state" : "California",
+      "zipcode" : 95018,
+      "longitude" : -122.063,
+      "latitude" : 37.064
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1001930",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.393, 37.7955]
+    },
+  "properties": {
+      "id" : 1001930,
+      "type": "Farmer's Market",
+      "name" : "Ferry Plaza Farmers' Market",
+      "url" : "http://www.cuesa.org/",
+      "address_street" : "One Ferry Building, Suite 50",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94111,
+      "longitude" : -122.393,
+      "latitude" : 37.7955
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003872",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.433, 37.7833]
+    },
+  "properties": {
+      "id" : 1003872,
+      "type": "Farmer's Market",
+      "name" : "Fillmore Certified Farmers' Market",
+      "url" : "http://pcfma.com",
+      "address_street" : "1700 O'Farrell St.",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.433,
+      "latitude" : 37.7833
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003948",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.436, 38.4967]
+    },
+  "properties": {
+      "id" : 1003948,
+      "type": "Farmer's Market",
+      "name" : "Florin Sears Store Certified Farmers' Market",
+      "url" : "http://www.marketlocations.com",
+      "address_street" : "Florin Sears Store",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95814,
+      "longitude" : -121.436,
+      "latitude" : 38.4967
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2000668",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.125, 38.6891]
+    },
+  "properties": {
+      "id" : 2000668,
+      "type": "Farmer's Market",
+      "name" : "Folsom Friday Farmers' Market",
+      "url" : "http://eldoradofarmersmarket.com",
+      "address_street" : "Brigg's Ranch Plaza (Blue Ravine)",
+      "city" : "Folsom",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95630,
+      "longitude" : -121.125,
+      "latitude" : 38.6891
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2001784",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.178, 38.677]
+    },
+  "properties": {
+      "id" : 2001784,
+      "type": "Farmer's Market",
+      "name" : "Folsom Sutter St. Farmers Market",
+      "url" : null,
+      "address_street" : "Sutter St. & Wool St.",
+      "city" : "Camino",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95709,
+      "longitude" : -121.178,
+      "latitude" : 38.677
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1005915",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.434, 37.8051]
+    },
+  "properties": {
+      "id" : 1005915,
+      "type": "Farmer's Market",
+      "name" : "Fort Mason Center Farmers' Market",
+      "url" : "http://cafarmersmkts.com/markets/category/fort-mason-center",
+      "address_street" : "Marina Blvd and Buchanan Street",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94123,
+      "longitude" : -122.434,
+      "latitude" : 37.8051
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002459",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.008, 37.559]
+    },
+  "properties": {
+      "id" : 2002459,
+      "type": "Farmer's Market",
+      "name" : "Fremont Centerville Farmers Market",
+      "url" : null,
+      "address_street" : "Bonde Way & Fremont Blvd.",
+      "city" : "Fremont",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94538,
+      "longitude" : -122.008,
+      "latitude" : 37.559
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002767",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.515, 37.9655]
+    },
+  "properties": {
+      "id" : 2002767,
+      "type": "Farmer's Market",
+      "name" : "Fremont Irvington Farmers Market",
+      "url" : null,
+      "address_street" : "Bay Street & Freemont Blvd.",
+      "city" : "Fremont",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94538,
+      "longitude" : -122.515,
+      "latitude" : 37.9655
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2000424",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.249, 37.8095]
+    },
+  "properties": {
+      "id" : 2000424,
+      "type": "Farmer's Market",
+      "name" : "Grand Lake Farmers Market",
+      "url" : "http://www.marinagriculturalinstitute.org",
+      "address_street" : "Grand Ave and Lake Park Ave",
+      "city" : "Oakland",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.249,
+      "latitude" : 37.8095
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003530",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.248, 37.8106]
+    },
+  "properties": {
+      "id" : 1003530,
+      "type": "Farmer's Market",
+      "name" : "Grand Lake-Oakland Farmers Market",
+      "url" : "http://www.agriculturalinstitute.org",
+      "address_street" : "Splash Pad Park, corner of Grand Ave and Lake Park Ave",
+      "city" : "Oakland",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94610,
+      "longitude" : -122.248,
+      "latitude" : 37.8106
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002562",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-123.023, 38.4746]
+    },
+  "properties": {
+      "id" : 2002562,
+      "type": "Farmer's Market",
+      "name" : "Guerneville Farmers Market",
+      "url" : null,
+      "address_street" : "16209 First Street",
+      "city" : "Villa Grande",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95486,
+      "longitude" : -123.023,
+      "latitude" : 38.4746
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002686",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.43, 37.4581]
+    },
+  "properties": {
+      "id" : 2002686,
+      "type": "Farmer's Market",
+      "name" : "Half Moon Bay Farmers Market",
+      "url" : "http://www.coastside-farmersmarket.org",
+      "address_street" : "at Cetrella's Resturant",
+      "city" : "Half Moon Bay",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94019,
+      "longitude" : -122.43,
+      "latitude" : 37.4581
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003651",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-119.601, 37.2417]
+    },
+  "properties": {
+      "id" : 1003651,
+      "type": "Farmer's Market",
+      "name" : "Hayward Farmers Market",
+      "url" : "http://www.agriculturalinstitute.org",
+      "address_street" : "777 B Street",
+      "city" : "Hayward",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94541,
+      "longitude" : -119.601,
+      "latitude" : 37.2417
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1002484",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-119.601, 37.2417]
+    },
+  "properties": {
+      "id" : 1002484,
+      "type": "Farmer's Market",
+      "name" : "Healdsburg Certified Farmers' Market",
+      "url" : "http://www.healdsburgfarmersmarket.org",
+      "address_street" : "North Street",
+      "city" : "Healdsburg",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95448,
+      "longitude" : -119.601,
+      "latitude" : 37.2417
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1002484",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-119.601, 37.2417]
+    },
+  "properties": {
+      "id" : 1002484,
+      "type": "Farmer's Market",
+      "name" : "Healdsburg Certified Farmers' Market",
+      "url" : "http://www.healdsburgfarmersmarket.org",
+      "address_street" : "North Street",
+      "city" : "Healdsburg",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95448,
+      "longitude" : -119.601,
+      "latitude" : 37.2417
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003950",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.414, 37.7799]
+    },
+  "properties": {
+      "id" : 1003950,
+      "type": "Farmer's Market",
+      "name" : "Heart of the City Farmers' Market",
+      "url" : "http://www.hocfarmersmarket.org",
+      "address_street" : "1182 Market Street, Suite 412",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94102,
+      "longitude" : -122.414,
+      "latitude" : 37.7799
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2004446",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.26, 37.5049]
+    },
+  "properties": {
+      "id" : 2004446,
+      "type": "Farmer's Market",
+      "name" : "Hot Harvest Nights",
+      "url" : null,
+      "address_street" : "700 Block, Laurel Street",
+      "city" : "San Carlos",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.26,
+      "latitude" : 37.5049
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004324",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.466, 37.7636]
+    },
+  "properties": {
+      "id" : 1004324,
+      "type": "Farmer's Market",
+      "name" : "Inner Sunset Farmers' Market",
+      "url" : "http://pcfma.com/innersunset",
+      "address_street" : "1300 Block 9th Avenue",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94122,
+      "longitude" : -122.466,
+      "latitude" : 37.7636
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2001278",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.959, 37.533]
+    },
+  "properties": {
+      "id" : 2001278,
+      "type": "Farmer's Market",
+      "name" : "Irvington CFM",
+      "url" : "http://www.pcfma.com/markethome.php?market_id=4",
+      "address_street" : "Bay Street at Fremont Blvd.",
+      "city" : "Fermont",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94538,
+      "longitude" : -121.959,
+      "latitude" : 37.533
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003069",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [null, null]
+    },
+  "properties": {
+      "id" : 2003069,
+      "type": "Farmer's Market",
+      "name" : "Jack London Square CFM",
+      "url" : "http://www.pcfma.com/markethome.php?market_id=4",
+      "address_street" : "Water Street",
+      "city" : "Oakland",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94603,
+      "longitude" : null,
+      "latitude" : null
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003070",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.775, 37.9504]
+    },
+  "properties": {
+      "id" : 2003070,
+      "type": "Farmer's Market",
+      "name" : "Kaiser Antioch CFM",
+      "url" : "http://www.pcfma.com/markethome.php?market_id=4",
+      "address_street" : "4501 Sand Creek Road",
+      "city" : "Antioch",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -121.775,
+      "latitude" : 37.9504
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003071",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.975, 37.552]
+    },
+  "properties": {
+      "id" : 2003071,
+      "type": "Farmer's Market",
+      "name" : "Kaiser Fremont CFM",
+      "url" : "http://www.pcfma.com/markethome.php?market_id=4",
+      "address_street" : "39400 Paseo Padre Parkway",
+      "city" : "Fremont",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -121.975,
+      "latitude" : 37.552
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002083",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.097, 37.6321]
+    },
+  "properties": {
+      "id" : 2002083,
+      "type": "Farmer's Market",
+      "name" : "Kaiser Hayard CFM",
+      "url" : "http://www.pcfma.com/marketdetail.php?market_id=1",
+      "address_street" : "27400 Hesperian Blvd",
+      "city" : "Hayward",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94520,
+      "longitude" : -122.097,
+      "latitude" : 37.6321
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003072",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.111, 37.9932]
+    },
+  "properties": {
+      "id" : 2003072,
+      "type": "Farmer's Market",
+      "name" : "Kaiser Martinez CFM",
+      "url" : "http://www.pcfma.com/markethome.php?market_id=4",
+      "address_street" : "200 Muir Road",
+      "city" : "Martinez",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.111,
+      "latitude" : 37.9932
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002642",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.256, 37.8249]
+    },
+  "properties": {
+      "id" : 2002642,
+      "type": "Farmer's Market",
+      "name" : "Kaiser Oakland CFM",
+      "url" : null,
+      "address_street" : "3801 Howe Street",
+      "city" : "Oakland",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94901,
+      "longitude" : -122.256,
+      "latitude" : 37.8249
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003073",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.223, 37.4893]
+    },
+  "properties": {
+      "id" : 2003073,
+      "type": "Farmer's Market",
+      "name" : "Kaiser Redwood City CFM",
+      "url" : "http://www.pcfma.com/markethome.php?market_id=4",
+      "address_street" : "1150 Veterans Blvd.",
+      "city" : "Redwood",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.223,
+      "latitude" : 37.4893
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2001299",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.441, 37.783]
+    },
+  "properties": {
+      "id" : 2001299,
+      "type": "Farmer's Market",
+      "name" : "Kaiser San Francisco CFM",
+      "url" : "http://www.pcfma.com/marketdetail.php?market_id=10",
+      "address_street" : "Geary at St. Josepth's Street",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94102,
+      "longitude" : -122.441,
+      "latitude" : 37.783
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003076",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.421, 37.7868]
+    },
+  "properties": {
+      "id" : 2003076,
+      "type": "Farmer's Market",
+      "name" : "Kaiser South San Francisco CFM",
+      "url" : "http://www.pcfma.com/markethome.php?market_id=4",
+      "address_street" : "1200 El Camino Real",
+      "city" : "San Francisco",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.421,
+      "latitude" : 37.7868
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003840",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.083, 37.6057]
+    },
+  "properties": {
+      "id" : 2003840,
+      "type": "Farmer's Market",
+      "name" : "Kaiser Union City CFM",
+      "url" : "http://www.pcfma.com/markethome.php?market_id=4",
+      "address_street" : "3553 Whipple Road",
+      "city" : "Union City",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94520,
+      "longitude" : -122.083,
+      "latitude" : 37.6057
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002344",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.062, 37.8996]
+    },
+  "properties": {
+      "id" : 2002344,
+      "type": "Farmer's Market",
+      "name" : "Kaiser Walnut Creek CFM",
+      "url" : "http://www.pcfma.com/markethome.php?market_id=4",
+      "address_street" : "1425 S. Main Street",
+      "city" : "Walnut Creek",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.062,
+      "latitude" : 37.8996
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2004447",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.324, 37.5732]
+    },
+  "properties": {
+      "id" : 2004447,
+      "type": "Farmer's Market",
+      "name" : "King Park Farmers' Market",
+      "url" : null,
+      "address_street" : "Martin Luther King Park at 725 Monte Diable Ave",
+      "city" : "San Mateo",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.324,
+      "latitude" : 37.5732
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1001133",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.118, 37.8918]
+    },
+  "properties": {
+      "id" : 1001133,
+      "type": "Farmer's Market",
+      "name" : "Lafayette Farmers Market",
+      "url" : "http://cccfm.org",
+      "address_street" : "Lafayette Park Plaza at Moraga Road and Mt. Diablo Blvd",
+      "city" : "Lafayette",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94549,
+      "longitude" : -122.118,
+      "latitude" : 37.8918
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002316",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [null, null]
+    },
+  "properties": {
+      "id" : 2002316,
+      "type": "Farmer's Market",
+      "name" : "Larkspur Farmers Market",
+      "url" : null,
+      "address_street" : "Larkspur Landing Circle",
+      "city" : "Novato",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94949,
+      "longitude" : null,
+      "latitude" : null
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003077",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.772, 37.6798]
+    },
+  "properties": {
+      "id" : 2003077,
+      "type": "Farmer's Market",
+      "name" : "Livemore Sunday CFM",
+      "url" : "http://www.pcfma.com/markethome.php?market_id=4",
+      "address_street" : "2nd Street",
+      "city" : "Livemore",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -121.772,
+      "latitude" : 37.6798
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003213",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.769, 37.6797]
+    },
+  "properties": {
+      "id" : 2003213,
+      "type": "Farmer's Market",
+      "name" : "Livermore CFM",
+      "url" : "http://www.pcfma.com/marketdetail.php?market_id=6",
+      "address_street" : "Carnegie Park at 3rd & J Streets",
+      "city" : "Livermore",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94550,
+      "longitude" : -121.769,
+      "latitude" : 37.6797
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1002706",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.532, 37.9981]
+    },
+  "properties": {
+      "id" : 1002706,
+      "type": "Farmer's Market",
+      "name" : "Marin Farmers Market",
+      "url" : "http://www.agriculturalinstitute.org",
+      "address_street" : "Civic Center-Hwy 101 & San Pedro",
+      "city" : "San Rafael",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94901,
+      "longitude" : -122.532,
+      "latitude" : 37.9981
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2000406",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.137, 38.0171]
+    },
+  "properties": {
+      "id" : 2000406,
+      "type": "Farmer's Market",
+      "name" : "Martinez Farmers Market",
+      "url" : "http://www.cccfm.org",
+      "address_street" : "Main St plaza",
+      "city" : "Martinez",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94553,
+      "longitude" : -122.137,
+      "latitude" : 38.0171
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004982",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.184, 37.4507]
+    },
+  "properties": {
+      "id" : 1004982,
+      "type": "Farmer's Market",
+      "name" : "Menlo Park Farmers' Market",
+      "url" : "http://localharvest.org",
+      "address_street" : "Chestnut & Menlo Avenues",
+      "city" : "Menlo Park",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94025,
+      "longitude" : -122.184,
+      "latitude" : 37.4507
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004701",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.391, 37.6002]
+    },
+  "properties": {
+      "id" : 1004701,
+      "type": "Farmer's Market",
+      "name" : "Millbrae Farmers Market",
+      "url" : "http://www.millbrae.com",
+      "address_street" : "200 Broadway",
+      "city" : "Millbrae",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94030,
+      "longitude" : -122.391,
+      "latitude" : 37.6002
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004330",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.39, 37.7689]
+    },
+  "properties": {
+      "id" : 1004330,
+      "type": "Farmer's Market",
+      "name" : "Mission Bay Farmers' Market",
+      "url" : "http://pcfma.com/missionbay",
+      "address_street" : "550 Gene Friend Way",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94158,
+      "longitude" : -122.39,
+      "latitude" : 37.7689
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1002907",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.923, 36.9914]
+    },
+  "properties": {
+      "id" : 1002907,
+      "type": "Farmer's Market",
+      "name" : "Monterey Bay Certified Farmers Markets",
+      "url" : "http://www.montereybayfarmers.org",
+      "address_street" : "6500 Soquel Drive",
+      "city" : "Aptos",
+      "county" : "Santa Cruz",
+      "state" : "California",
+      "zipcode" : 95003,
+      "longitude" : -121.923,
+      "latitude" : 36.9914
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1005928",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.128, 37.834]
+    },
+  "properties": {
+      "id" : 1005928,
+      "type": "Farmer's Market",
+      "name" : "Moraga Farmers Market",
+      "url" : "http://cafarmersmkts.com/markets/category/moraga",
+      "address_street" : "Moraga Road and Moraga Way",
+      "city" : "Moraga",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94556,
+      "longitude" : -122.128,
+      "latitude" : 37.834
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002727",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.285, 38.2992]
+    },
+  "properties": {
+      "id" : 2002727,
+      "type": "Farmer's Market",
+      "name" : "Napa Chef's Farmers Market",
+      "url" : null,
+      "address_street" : "1st St. & Main St.",
+      "city" : "Napa",
+      "county" : "Napa",
+      "state" : "California",
+      "zipcode" : 94581,
+      "longitude" : -122.285,
+      "latitude" : 38.2992
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002728",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.279, 38.3028]
+    },
+  "properties": {
+      "id" : 2002728,
+      "type": "Farmer's Market",
+      "name" : "Napa Tuesday Downtown Farmers Market",
+      "url" : "http://www.commongreens.com",
+      "address_street" : "500 First St./ COPIA P.L.",
+      "city" : "Napa",
+      "county" : "Napa",
+      "state" : "California",
+      "zipcode" : 94581,
+      "longitude" : -122.279,
+      "latitude" : 38.3028
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003514",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.002, 37.5256]
+    },
+  "properties": {
+      "id" : 1003514,
+      "type": "Farmer's Market",
+      "name" : "Newark Farmers Market",
+      "url" : "http://www.agriculturalinstitute.org",
+      "address_street" : "Newpark Mall parking lot",
+      "city" : "Newark",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94560,
+      "longitude" : -122.002,
+      "latitude" : 37.5256
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1001951",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.269, 37.8815]
+    },
+  "properties": {
+      "id" : 1001951,
+      "type": "Farmer's Market",
+      "name" : "North Berkeley Farmers' Market",
+      "url" : "http://www.ecologycenter.org/bfm",
+      "address_street" : "Shattuck Ave. & Rose Street",
+      "city" : "Berkeley",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94702,
+      "longitude" : -122.269,
+      "latitude" : 37.8815
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003974",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.514, 38.6591]
+    },
+  "properties": {
+      "id" : 1003974,
+      "type": "Farmer's Market",
+      "name" : "North Natomas Inderkum High School CFM",
+      "url" : "http://www.marketlocations.com",
+      "address_street" : "2500 New Market Dr",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95835,
+      "longitude" : -121.514,
+      "latitude" : 38.6591
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2001300",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.568, 38.1071]
+    },
+  "properties": {
+      "id" : 2001300,
+      "type": "Farmer's Market",
+      "name" : "Novato Downtown Farmers Market",
+      "url" : "http://www.bayareafarmersmarkets.com",
+      "address_street" : "Grant & Sherman",
+      "city" : "San Rafael",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94901,
+      "longitude" : -122.568,
+      "latitude" : 38.1071
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003509",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.568, 38.1071]
+    },
+  "properties": {
+      "id" : 1003509,
+      "type": "Farmer's Market",
+      "name" : "Novato Farmers Market",
+      "url" : "http://www.agriculturalinstitute.org",
+      "address_street" : "Grant Ave between Reichert Ave and Machin Ave",
+      "city" : "Novato",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94903,
+      "longitude" : -122.568,
+      "latitude" : 38.1071
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003226",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.47, 38.5487]
+    },
+  "properties": {
+      "id" : 1003226,
+      "type": "Farmer's Market",
+      "name" : "Oak Park Farmers Market",
+      "url" : "http://nwsac.org/oakparkfarmersmarket/",
+      "address_street" : "3500 5th Avenue",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95817,
+      "longitude" : -121.47,
+      "latitude" : 38.5487
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002643",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.248, 37.8105]
+    },
+  "properties": {
+      "id" : 2002643,
+      "type": "Farmer's Market",
+      "name" : "Oakland Grand Lake Farmers Market",
+      "url" : "http://www.marinfarmersmarkets.org",
+      "address_street" : "Grand & Lakepark Way",
+      "city" : "Oakland",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94901,
+      "longitude" : -122.248,
+      "latitude" : 37.8105
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002352",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.294, 37.805]
+    },
+  "properties": {
+      "id" : 2002352,
+      "type": "Farmer's Market",
+      "name" : "Oakland Mandela Farmers Market",
+      "url" : "http://www.mobetterfood.com",
+      "address_street" : "7th St. & Mandela Pkwy.",
+      "city" : "Oakland",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94610,
+      "longitude" : -122.294,
+      "latitude" : 37.805
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002456",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [null, null]
+    },
+  "properties": {
+      "id" : 2002456,
+      "type": "Farmer's Market",
+      "name" : "Oakland Millsmont Farmers Market",
+      "url" : "http://www.bayareafarmersmarkets.com",
+      "address_street" : "MacArthur at Seminary",
+      "city" : "San Rafael",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94901,
+      "longitude" : null,
+      "latitude" : null
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002084",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.211, 37.8263]
+    },
+  "properties": {
+      "id" : 2002084,
+      "type": "Farmer's Market",
+      "name" : "Oakland Montclair Sunday Farmers Market",
+      "url" : "http://www.urbanvillageonline.com",
+      "address_street" : "LaSalle Ave. & Moraga Ave.",
+      "city" : "Fremont",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94538,
+      "longitude" : -122.211,
+      "latitude" : 37.8263
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003920",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.948, 38.4065]
+    },
+  "properties": {
+      "id" : 1003920,
+      "type": "Farmer's Market",
+      "name" : "Occidental Bohemian Farmers Market",
+      "url" : "http://www.occidentalfarmersmarket.com",
+      "address_street" : "3611 Bohemian Hwy",
+      "city" : "Occidental",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95465,
+      "longitude" : -122.948,
+      "latitude" : 38.4065
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002673",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-120.519, 46.5715]
+    },
+  "properties": {
+      "id" : 2002673,
+      "type": "Farmer's Market",
+      "name" : "Old Oakland Farmers Market",
+      "url" : "http://www.urbanvillageonline.com",
+      "address_street" : "9th St. & Broadway St.",
+      "city" : "Fremont",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94538,
+      "longitude" : -120.519,
+      "latitude" : 46.5715
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2000405",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.189, 37.8836]
+    },
+  "properties": {
+      "id" : 2000405,
+      "type": "Farmer's Market",
+      "name" : "Orinda Famers Market",
+      "url" : "http://www.cccfm.org",
+      "address_street" : "Orinda Way in Orinda Village",
+      "city" : "Orinda",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94563,
+      "longitude" : -122.189,
+      "latitude" : 37.8836
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2004450",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.383, 37.2543]
+    },
+  "properties": {
+      "id" : 2004450,
+      "type": "Farmer's Market",
+      "name" : "Pescadero Grown",
+      "url" : null,
+      "address_street" : "350 Stage Road",
+      "city" : "Pescadero",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.383,
+      "latitude" : 37.2543
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1001823",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-119.601, 37.2417]
+    },
+  "properties": {
+      "id" : 1001823,
+      "type": "Farmer's Market",
+      "name" : "Petaluma Farmers Market",
+      "url" : "http://www.petalumafarmersmarket.com",
+      "address_street" : "4th & D Streets",
+      "city" : "Petaluma",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 94952,
+      "longitude" : -119.601,
+      "latitude" : 37.2417
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002726",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.291, 38.0037]
+    },
+  "properties": {
+      "id" : 2002726,
+      "type": "Farmer's Market",
+      "name" : "Pinole CFM",
+      "url" : "http://www.pcfma.com/marketdetail.php?market_id=11",
+      "address_street" : "Fernandez Avenue and Pear Street",
+      "city" : "Pinole",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94520,
+      "longitude" : -122.291,
+      "latitude" : 38.0037
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2004443",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.266, 37.5595]
+    },
+  "properties": {
+      "id" : 2004443,
+      "type": "Farmer's Market",
+      "name" : "PJCC Farmers' Market at Foster City",
+      "url" : null,
+      "address_street" : "Balclutha Dr., between Foster City Blvd. & Shell Blvd.",
+      "city" : "Foster City",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.266,
+      "latitude" : 37.5595
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002345",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.876, 37.6594]
+    },
+  "properties": {
+      "id" : 2002345,
+      "type": "Farmer's Market",
+      "name" : "Pleasanton CFM",
+      "url" : "http://www.pcfma.com/marketdetail.php?market_id=12",
+      "address_street" : "Main & West Angela Streets",
+      "city" : "Pleasanton",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94520,
+      "longitude" : -121.876,
+      "latitude" : 37.6594
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002348",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.805, 38.07]
+    },
+  "properties": {
+      "id" : 2002348,
+      "type": "Farmer's Market",
+      "name" : "Pt. Reyes Station/West Marin Farmers Market",
+      "url" : null,
+      "address_street" : "15479 State Route 1",
+      "city" : "Pt. Reyes Station",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94956,
+      "longitude" : -122.805,
+      "latitude" : 38.07
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003903",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.23, 37.4854]
+    },
+  "properties": {
+      "id" : 1003903,
+      "type": "Farmer's Market",
+      "name" : "Redwood City Kiwanis Farmers Market",
+      "url" : "http://www.rwcfm.org",
+      "address_street" : "850 Winslow Street",
+      "city" : "Redwood City",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94063,
+      "longitude" : -122.23,
+      "latitude" : 37.4854
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004506",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.318, 37.942]
+    },
+  "properties": {
+      "id" : 1004506,
+      "type": "Farmer's Market",
+      "name" : "Richmond Certified Farmers Market",
+      "url" : null,
+      "address_street" : "24th & Barrett Ave.",
+      "city" : "Richmond",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94804,
+      "longitude" : -122.318,
+      "latitude" : 37.942
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2001234",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.338, 37.9287]
+    },
+  "properties": {
+      "id" : 2001234,
+      "type": "Farmer's Market",
+      "name" : "Richmond Farmers Market",
+      "url" : null,
+      "address_street" : "Civic Center Plaza Drive & McDonald Ave.",
+      "city" : "El Sobrante",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94820,
+      "longitude" : -122.338,
+      "latitude" : 37.9287
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002756",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.434, 38.5953]
+    },
+  "properties": {
+      "id" : 2002756,
+      "type": "Farmer's Market",
+      "name" : "Sacramento Cal Expo Farmers Market",
+      "url" : "http://www.california-grown.com",
+      "address_street" : "Cal Expo-Ethan & Exposition",
+      "city" : "Elk Grove",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95624,
+      "longitude" : -121.434,
+      "latitude" : 38.5953
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003972",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.5, 38.5783]
+    },
+  "properties": {
+      "id" : 1003972,
+      "type": "Farmer's Market",
+      "name" : "Sacramento Capitol Mall Certified Farmers' Market",
+      "url" : "http://www.marketlocations.com",
+      "address_street" : "600 Capitol Mall",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95814,
+      "longitude" : -121.5,
+      "latitude" : 38.5783
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003967",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.502, 38.5667]
+    },
+  "properties": {
+      "id" : 1003967,
+      "type": "Farmer's Market",
+      "name" : "Sacramento Central Certified Farmers' Market",
+      "url" : "http://www.marketlocations.com",
+      "address_street" : "8th St and W St",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95818,
+      "longitude" : -121.502,
+      "latitude" : 38.5667
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003966",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.494, 38.5803]
+    },
+  "properties": {
+      "id" : 1003966,
+      "type": "Farmer's Market",
+      "name" : "Sacramento Chavez Plaza Certified Farmers' Market",
+      "url" : null,
+      "address_street" : "10th St and J St",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95814,
+      "longitude" : -121.494,
+      "latitude" : 38.5803
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002654",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [null, null]
+    },
+  "properties": {
+      "id" : 2002654,
+      "type": "Farmer's Market",
+      "name" : "Sacramento Consumnes River College CFM",
+      "url" : null,
+      "address_street" : "Bruceville Road in Lot E",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95814,
+      "longitude" : null,
+      "latitude" : null
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003975",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.379, 38.6084]
+    },
+  "properties": {
+      "id" : 1003975,
+      "type": "Farmer's Market",
+      "name" : "Sacramento Country Club Plaza Certified Farmers' Market",
+      "url" : "http://www.marketlocations.com",
+      "address_street" : "2405 Butano Dr",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95825,
+      "longitude" : -121.379,
+      "latitude" : 38.6084
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2000098",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.502, 38.5815]
+    },
+  "properties": {
+      "id" : 2000098,
+      "type": "Farmer's Market",
+      "name" : "Sacramento Downtown Plaza Certified Farmers' Market",
+      "url" : "http://www.california-grown.com",
+      "address_street" : "Downtown Plaza, 4th & K Streets",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95814,
+      "longitude" : -121.502,
+      "latitude" : 38.5815
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2000337",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.437, 38.4967]
+    },
+  "properties": {
+      "id" : 2000337,
+      "type": "Farmer's Market",
+      "name" : "Sacramento Florin Certified Farmers' Market",
+      "url" : "http://www.california-grown.com",
+      "address_street" : "Florin Road and 65th Street",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95814,
+      "longitude" : -121.437,
+      "latitude" : 38.4967
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003959",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.488, 38.5715]
+    },
+  "properties": {
+      "id" : 1003959,
+      "type": "Farmer's Market",
+      "name" : "Sacramento Fremont Park Certified Farmers' Market",
+      "url" : null,
+      "address_street" : "16th St and P St",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95814,
+      "longitude" : -121.488,
+      "latitude" : 38.5715
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003965",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.498, 38.574]
+    },
+  "properties": {
+      "id" : 1003965,
+      "type": "Farmer's Market",
+      "name" : "Sacramento Roosevelt Park Certified Farmers' Market",
+      "url" : null,
+      "address_street" : "9th St and P St",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95814,
+      "longitude" : -121.498,
+      "latitude" : 38.574
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003973",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.498, 38.5804]
+    },
+  "properties": {
+      "id" : 1003973,
+      "type": "Farmer's Market",
+      "name" : "Sacramento St. Rose of Lima Certified Farmers' Market",
+      "url" : "http://www.marketlocations.com",
+      "address_street" : "7th St & K St",
+      "city" : "Sacramento",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95814,
+      "longitude" : -121.498,
+      "latitude" : 38.5804
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003831",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.467, 38.4949]
+    },
+  "properties": {
+      "id" : 2003831,
+      "type": "Farmer's Market",
+      "name" : "Saint Helena-Napa Valley CFM",
+      "url" : "http://www.sthelenafarmersmkt.org",
+      "address_street" : "Crane Park",
+      "city" : "St. Helena",
+      "county" : "Napa",
+      "state" : "California",
+      "zipcode" : 94574,
+      "longitude" : -122.467,
+      "latitude" : 38.4949
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2004444",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.411, 37.624]
+    },
+  "properties": {
+      "id" : 2004444,
+      "type": "Farmer's Market",
+      "name" : "San Bruno Farmers Market",
+      "url" : null,
+      "address_street" : "San Mateo Ave. between Jenevein & Sylvania, San Bruno, 94066, San Mateo",
+      "city" : "San Bruno",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.411,
+      "latitude" : 37.624
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2004445",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.259, 37.5043]
+    },
+  "properties": {
+      "id" : 2004445,
+      "type": "Farmer's Market",
+      "name" : "San Carlos CFM",
+      "url" : null,
+      "address_street" : "Laurel St btwn Olive & cherry",
+      "city" : "San Carlos",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.259,
+      "latitude" : 37.5043
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002446",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.409, 37.7366]
+    },
+  "properties": {
+      "id" : 2002446,
+      "type": "Farmer's Market",
+      "name" : "San Francisco Alemany Farmers Market",
+      "url" : null,
+      "address_street" : "San Francisco & Putnam",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94110,
+      "longitude" : -122.409,
+      "latitude" : 37.7366
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002449",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.419, 37.8078]
+    },
+  "properties": {
+      "id" : 2002449,
+      "type": "Farmer's Market",
+      "name" : "San Francisco Cannery Farmers Market",
+      "url" : "http://www.thecannery.com",
+      "address_street" : "Del Monte Square",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94133,
+      "longitude" : -122.419,
+      "latitude" : 37.8078
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002763",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.427, 37.6555]
+    },
+  "properties": {
+      "id" : 2002763,
+      "type": "Farmer's Market",
+      "name" : "San Francisco Farmers Market Parkmerced",
+      "url" : "http://www.cafarmersmkts.com",
+      "address_street" : "Serrano and Arballo Drive",
+      "city" : "San Francisco",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 91132,
+      "longitude" : -122.427,
+      "latitude" : 37.6555
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002447",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.394, 37.7949]
+    },
+  "properties": {
+      "id" : 2002447,
+      "type": "Farmer's Market",
+      "name" : "San Francisco Ferry Plaza Farmers Market",
+      "url" : "http://www.cuesa.org",
+      "address_street" : "Embarcadero & Market Streets",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94102,
+      "longitude" : -122.394,
+      "latitude" : 37.7949
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003218",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.432, 37.7815]
+    },
+  "properties": {
+      "id" : 2003218,
+      "type": "Farmer's Market",
+      "name" : "San Francisco Fillmore Farmers Market",
+      "url" : "http://www.pcfma.com/marketdetail.php?market_id=13",
+      "address_street" : "Fillmore & Eddy",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94115,
+      "longitude" : -122.432,
+      "latitude" : 37.7815
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002448",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.414, 37.7788]
+    },
+  "properties": {
+      "id" : 2002448,
+      "type": "Farmer's Market",
+      "name" : "San Francisco Heart of the City",
+      "url" : null,
+      "address_street" : "Market Street",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94102,
+      "longitude" : -122.414,
+      "latitude" : 37.7788
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2001284",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.671, 38.0154]
+    },
+  "properties": {
+      "id" : 2001284,
+      "type": "Farmer's Market",
+      "name" : "San Geronimo Valley Farmers Market",
+      "url" : null,
+      "address_street" : "Valley Presbyterian Church",
+      "city" : "Forest Knolls",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94933,
+      "longitude" : -122.671,
+      "latitude" : 38.0154
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002527",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.779, 37.3153]
+    },
+  "properties": {
+      "id" : 2002527,
+      "type": "Farmer's Market",
+      "name" : "San Jose Evergreen Farmers Market",
+      "url" : "http://www.urbanvillageonline.com",
+      "address_street" : "300 Aborn Rd., La Rochelle Winery",
+      "city" : "Fremont",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94538,
+      "longitude" : -121.779,
+      "latitude" : 37.3153
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002761",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.123, 37.7036]
+    },
+  "properties": {
+      "id" : 2002761,
+      "type": "Farmer's Market",
+      "name" : "San Leandro Bayfair Mall",
+      "url" : "http://www.cafarmersmkts.com",
+      "address_street" : "Fairmont & East 14th St.",
+      "city" : "San Leandro",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94578,
+      "longitude" : -122.123,
+      "latitude" : 37.7036
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2004440",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.303, 37.546]
+    },
+  "properties": {
+      "id" : 2004440,
+      "type": "Farmer's Market",
+      "name" : "San Mateo Event Center CFM",
+      "url" : null,
+      "address_street" : "2495 South Delaware Street, San Mateo Event Center",
+      "city" : "San Mateo",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.303,
+      "latitude" : 37.546
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002455",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.335, 37.5319]
+    },
+  "properties": {
+      "id" : 2002455,
+      "type": "Farmer's Market",
+      "name" : "San Mateo Farmers Market",
+      "url" : "http://www.pcfma.com/marketdetail.php?market_id=15",
+      "address_street" : "College of San Mateo parking lot",
+      "city" : "San Mateo",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : 94520,
+      "longitude" : -122.335,
+      "latitude" : 37.5319
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002458",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.529, 37.9733]
+    },
+  "properties": {
+      "id" : 2002458,
+      "type": "Farmer's Market",
+      "name" : "San Rafael Downtown Farmers Market",
+      "url" : "http://www.sanrafaelmarket.org",
+      "address_street" : "4th & B Streets",
+      "city" : "San Rafael",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94915,
+      "longitude" : -122.529,
+      "latitude" : 37.9733
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002364",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.027, 36.9725]
+    },
+  "properties": {
+      "id" : 2002364,
+      "type": "Farmer's Market",
+      "name" : "Santa Cruz Community CFM",
+      "url" : "http://www.santacruzfarmersmarket.org",
+      "address_street" : "Corner of Lincoln & Cedar Streets",
+      "city" : "Santa Cruz",
+      "county" : "Santa Cruz",
+      "state" : "California",
+      "zipcode" : 95060,
+      "longitude" : -122.027,
+      "latitude" : 36.9725
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003123",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.715, 38.4393]
+    },
+  "properties": {
+      "id" : 1003123,
+      "type": "Farmer's Market",
+      "name" : "Santa Rosa Downtown CFM",
+      "url" : "http://www.srdowntownmarket.com/html/about_us.shtml",
+      "address_street" : "4th & B Streets",
+      "city" : "Santa Rosa",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95404,
+      "longitude" : -122.715,
+      "latitude" : 38.4393
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2001301",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.607, 38.4414]
+    },
+  "properties": {
+      "id" : 2001301,
+      "type": "Farmer's Market",
+      "name" : "Santa Rosa Oakmont CFM",
+      "url" : null,
+      "address_street" : "Bank Parking Lot",
+      "city" : "Santa Rosa",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95409,
+      "longitude" : -122.607,
+      "latitude" : 38.4414
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002350",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.481, 37.8573]
+    },
+  "properties": {
+      "id" : 2002350,
+      "type": "Farmer's Market",
+      "name" : "Sausalito CFM",
+      "url" : null,
+      "address_street" : "Bridgeway St. & Tracy St.",
+      "city" : "Sausalito",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94949,
+      "longitude" : -122.481,
+      "latitude" : 37.8573
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002470",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.842, 38.3961]
+    },
+  "properties": {
+      "id" : 2002470,
+      "type": "Farmer's Market",
+      "name" : "Sebastopol CFM",
+      "url" : null,
+      "address_street" : "New Town Plaza",
+      "city" : "Sebastopol",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95472,
+      "longitude" : -122.842,
+      "latitude" : 38.3961
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002467",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.475, 38.2953]
+    },
+  "properties": {
+      "id" : 2002467,
+      "type": "Farmer's Market",
+      "name" : "Sonoma Friday CFM",
+      "url" : null,
+      "address_street" : "Depot Museum parking lot",
+      "city" : "Donoma",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95409,
+      "longitude" : -122.475,
+      "latitude" : 38.2953
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002468",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.457, 38.2949]
+    },
+  "properties": {
+      "id" : 2002468,
+      "type": "Farmer's Market",
+      "name" : "Sonoma Tuesday CFM",
+      "url" : null,
+      "address_street" : "Sonoma Plaza",
+      "city" : "Sonoma",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95409,
+      "longitude" : -122.457,
+      "latitude" : 38.2949
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1001942",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-119.601, 37.2417]
+    },
+  "properties": {
+      "id" : 1001942,
+      "type": "Farmer's Market",
+      "name" : "South Berkeley Farmers' Market",
+      "url" : "http://www.ecologycenter.org/bfm",
+      "address_street" : "Derby Street & Martin Luther King",
+      "city" : "Berkeley",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94702,
+      "longitude" : -119.601,
+      "latitude" : 37.2417
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2004441",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.425, 37.6552]
+    },
+  "properties": {
+      "id" : 2004441,
+      "type": "Farmer's Market",
+      "name" : "South San Francisco Farmers Market",
+      "url" : null,
+      "address_street" : "Tennis Drive between Orange Avenue and N. Canal",
+      "city" : "So San Francisco",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.425,
+      "latitude" : 37.6552
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003813",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.466, 38.4945]
+    },
+  "properties": {
+      "id" : 1003813,
+      "type": "Farmer's Market",
+      "name" : "St Helena Farmers Market (Napa Valley California)",
+      "url" : "http://www.sthelenafarmersmkt.org",
+      "address_street" : null,
+      "city" : "St Helena",
+      "county" : "Napa",
+      "state" : "California",
+      "zipcode" : 94574,
+      "longitude" : -122.466,
+      "latitude" : 38.4945
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003188",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.478, 37.7297]
+    },
+  "properties": {
+      "id" : 1003188,
+      "type": "Farmer's Market",
+      "name" : "Stonestown Farmers Market",
+      "url" : "http://www.agriculturalinstitute.org",
+      "address_street" : "3251 20th Ave",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94132,
+      "longitude" : -122.478,
+      "latitude" : 37.7297
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002941",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-119.601, 37.2417]
+    },
+  "properties": {
+      "id" : 2002941,
+      "type": "Farmer's Market",
+      "name" : "Sunday Civic Center Farmers Market",
+      "url" : "http://www.marinfarmersmarkets.org",
+      "address_street" : "3501 Civic Center Drive",
+      "city" : "San Fafael",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94903,
+      "longitude" : -119.601,
+      "latitude" : 37.2417
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003001",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.532, 37.997]
+    },
+  "properties": {
+      "id" : 1003001,
+      "type": "Farmer's Market",
+      "name" : "Sunday San Rafael Farmers Market",
+      "url" : "http://www.agriculturalinstitute.org",
+      "address_street" : "Peter Behr Drive, Marin County Civic Center",
+      "city" : "San Rafael",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94903,
+      "longitude" : -122.532,
+      "latitude" : 37.997
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003956",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.269, 38.6056]
+    },
+  "properties": {
+      "id" : 1003956,
+      "type": "Farmer's Market",
+      "name" : "Sunrise Station Certified Farmers' Market",
+      "url" : "http://www.marketlocations.com",
+      "address_street" : "Folsom Blvd & Sunrise Blvd",
+      "city" : "Rancho Cordova",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95670,
+      "longitude" : -121.269,
+      "latitude" : 38.6056
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004576",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.18, 38.6761]
+    },
+  "properties": {
+      "id" : 1004576,
+      "type": "Farmer's Market",
+      "name" : "Sutter Street Farmers Market",
+      "url" : "http://www.facebook.com/farmtrails",
+      "address_street" : "900 Sutter Street",
+      "city" : "Folsom",
+      "county" : "Sacramento",
+      "state" : "California",
+      "zipcode" : 95630,
+      "longitude" : -121.18,
+      "latitude" : 38.6761
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002669",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-117.158, 33.5264]
+    },
+  "properties": {
+      "id" : 2002669,
+      "type": "Farmer's Market",
+      "name" : "Temescal CFM",
+      "url" : "http://www.urbanvillageonline.com/",
+      "address_street" : "DMV P.L.,5300 Claremont",
+      "city" : "Oakland",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 92088,
+      "longitude" : -117.158,
+      "latitude" : 33.5264
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2004442",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.365, 37.5852]
+    },
+  "properties": {
+      "id" : 2004442,
+      "type": "Farmer's Market",
+      "name" : "The Fresh Market Burlingame (2)",
+      "url" : null,
+      "address_street" : "Capuchino Avenue at Broadway",
+      "city" : "Burlingame",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.365,
+      "latitude" : 37.5852
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003834",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.294, 37.805]
+    },
+  "properties": {
+      "id" : 2003834,
+      "type": "Farmer's Market",
+      "name" : "The Mo' Better Food Market",
+      "url" : null,
+      "address_street" : "7th St. & Mandela Parkway",
+      "city" : "Oakland",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94607,
+      "longitude" : -122.294,
+      "latitude" : 37.805
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002940",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.534, 38.0024]
+    },
+  "properties": {
+      "id" : 2002940,
+      "type": "Farmer's Market",
+      "name" : "Thursday Civic Center Farmers Market",
+      "url" : "http://www.marinfarmersmarkets.org",
+      "address_street" : "10 Avenue of the Flags",
+      "city" : "San Rafael",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94903,
+      "longitude" : -122.534,
+      "latitude" : 38.0024
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1003185",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.535, 38.0008]
+    },
+  "properties": {
+      "id" : 1003185,
+      "type": "Farmer's Market",
+      "name" : "Thursday San Rafael Farmers Market",
+      "url" : "http://www.agriculturalinstitute.org",
+      "address_street" : "Civic Center Drive and Avenue of the Flags",
+      "city" : "San Rafael",
+      "county" : "Marin",
+      "state" : "California",
+      "zipcode" : 94903,
+      "longitude" : -122.535,
+      "latitude" : 38.0008
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003841",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.083, 37.6057]
+    },
+  "properties": {
+      "id" : 2003841,
+      "type": "Farmer's Market",
+      "name" : "Union City Kaiser CFM",
+      "url" : "http://www.pcfma.com",
+      "address_street" : "3553 Whipple Road",
+      "city" : "Union City",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : 94520,
+      "longitude" : -122.083,
+      "latitude" : 37.6057
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002764",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.104, 37.6016]
+    },
+  "properties": {
+      "id" : 2002764,
+      "type": "Farmer's Market",
+      "name" : "Union City-Old Alvardo Farmers Market",
+      "url" : "http://www.pcfma.com/marketdetail.php?market_id=17",
+      "address_street" : "Cesar Chavez Park",
+      "city" : "Union City",
+      "county" : "Alameda",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.104,
+      "latitude" : 37.6016
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004336",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.453, 37.7682]
+    },
+  "properties": {
+      "id" : 1004336,
+      "type": "Farmer's Market",
+      "name" : "Upper Haight Certified Farmers' Market",
+      "url" : "http://pcfma.com/market_home.php?market_id=41",
+      "address_street" : "1863 Waller Street",
+      "city" : "San Francisco",
+      "county" : "San Francisco",
+      "state" : "California",
+      "zipcode" : 94117,
+      "longitude" : -122.453,
+      "latitude" : 37.7682
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2004451",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.324, 37.5663]
+    },
+  "properties": {
+      "id" : 2004451,
+      "type": "Farmer's Market",
+      "name" : "Urban Table Certified Farmer's Market",
+      "url" : null,
+      "address_street" : "100 E. 4th Avenue",
+      "city" : "San Mateo",
+      "county" : "San Mateo",
+      "state" : "California",
+      "zipcode" : null,
+      "longitude" : -122.324,
+      "latitude" : 37.5663
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1004592",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.457, 38.2923]
+    },
+  "properties": {
+      "id" : 1004592,
+      "type": "Farmer's Market",
+      "name" : "Valley of the Moon Certified Farmers Market",
+      "url" : "http://vomcfm.com",
+      "address_street" : "No. 1 The Plaza",
+      "city" : "Sonoma",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95476,
+      "longitude" : -122.457,
+      "latitude" : 38.2923
+ 
+      }
+  }
+  ,
+{
+  "id" :  "1001335",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.064, 37.9027]
+    },
+  "properties": {
+      "id" : 1001335,
+      "type": "Farmer's Market",
+      "name" : "Walnut Creek Certified Farmers' Market",
+      "url" : "http://www.cccfm.org",
+      "address_street" : "Locust St.",
+      "city" : "Walnut Creek",
+      "county" : "Contra Costa",
+      "state" : "California",
+      "zipcode" : 94596,
+      "longitude" : -122.064,
+      "latitude" : 37.9027
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2001302",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-121.771, 36.9295]
+    },
+  "properties": {
+      "id" : 2001302,
+      "type": "Farmer's Market",
+      "name" : "Watsonville CFM",
+      "url" : null,
+      "address_street" : "Peck St. between Main and Union St.",
+      "city" : "Watsonville",
+      "county" : "Santa Cruz",
+      "state" : "California",
+      "zipcode" : 95077,
+      "longitude" : -121.771,
+      "latitude" : 36.9295
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2003848",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.057, 36.9598]
+    },
+  "properties": {
+      "id" : 2003848,
+      "type": "Farmer's Market",
+      "name" : "Westside CFM",
+      "url" : "http://www.santacruzfarmersmarket.org",
+      "address_street" : "Corner of Western Drive and Mission St.",
+      "city" : "Santa Cruz",
+      "county" : "Santa Cruz",
+      "state" : "California",
+      "zipcode" : 95060,
+      "longitude" : -122.057,
+      "latitude" : 36.9598
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002174",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.805, 38.5392]
+    },
+  "properties": {
+      "id" : 2002174,
+      "type": "Farmer's Market",
+      "name" : "Windsor CFM",
+      "url" : null,
+      "address_street" : "Bell Avenue at Town Green",
+      "city" : "Windsor",
+      "county" : "Sonoma",
+      "state" : "California",
+      "zipcode" : 95492,
+      "longitude" : -122.805,
+      "latitude" : 38.5392
+ 
+      }
+  }
+  ,
+{
+  "id" :  "2002175",
+  "type":"Feature",
+  "geometry": {
+    "type":"Point",
+    "coordinates": [-122.363, 38.4029]
+    },
+  "properties": {
+      "id" : 2002175,
+      "type": "Farmer's Market",
+      "name" : "Yountville Farmers Market",
+      "url" : "http://www.commongreens.com",
+      "address_street" : "Compadres Parking Lot-6539 Washington Street",
+      "city" : "Yountville",
+      "county" : "Napa",
+      "state" : "California",
+      "zipcode" : 94599,
+      "longitude" : -122.363,
+      "latitude" : 38.4029
+ 
+      }
+  }
+  
+  ]
+}

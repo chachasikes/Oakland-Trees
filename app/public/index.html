@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Oakland Trees</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Public and shared trees (including fruit trees) in Oakland.">
+    <meta name="author" content="http://oaklant-trees.org">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/libraries/bootstrap/docs/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/libraries/bootstrap/docs/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/libraries/bootstrap/docs/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/libraries/bootstrap/docs/assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/libraries/bootstrap/docs/assets/ico/favicon.ico">
+    <link href="/libraries/bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/libraries/bootstrap/docs/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/bootstrap_themes/bootstrap.min.oakland-trees.css" rel="stylesheet">    
+    <link href='/css/wax-controls.css' rel='stylesheet' type='text/css' />   
+    <link href="/css/mapbox-embed.css" rel="stylesheet">
+    <link href='/css/jquery.qtip.min.css' rel='stylesheet' type='text/css' /> 
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="text/javascript" src="/javascripts/libraries/jquery.js"></script>
+    <script type="text/javascript" src="/javascripts/libraries/jquery.qtip.min.js"></script>
+  </head>
+  <body>
+
+    <!-- Set up Facebook -->
+    <div id="fb-root"></div>
+    
+    <!-- Page content -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="brand" href="#home" data-toggle="tab">Oakland Trees</a>
+
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+        	    <li><a href="#map" data-toggle="tab">Map</a></li>
+              <li><a href="#data" data-toggle="tab">Data</a></li>
+              <li><a href="#about" data-toggle="tab">About</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+
+         <div class="tagline span4">Public and shared trees in Oakland</div>          
+        </div>
+      </div>
+    </div>
+  <!-- Main page content -->
+
+  <div class="container-fluid">
+  <div id="page-content" class="tab-content">
+    <!-- home-->
+    <div class="tab-pane active fade in row" id="home">
+
+        <div class="left span8">      
+          <div class="hero-unit">
+            <h1>Oakland Trees</h1>
+            <img src="images/oakland-logo-21.png" height="300px" />
+          </div>
+
+          <div class="span6">            
+            <div class="fb-like" data-href="http://www.facebook.com/oakland-trees" data-send="true" data-width="450" data-show-faces="true">
+            </div>
+          </div>
+        </div> 
+
+        <div class="span4">          
+          <div class="sidebar-nav">
+            <h2>Trees in Oakland</h2>
+            <p>This is a map and data source of known public trees in Oakland.</p>   
+          </div>
+
+      </div>
+    </div><!--/end home-->
+
+   <div class="tab-pane fade in" id="about">
+      <i data-target="#home" data-toggle="tab" class="icon-chevron-left icon-white"></i>
+      <h1>About</h1>
+
+
+        This is the about page.
+    </div><!--/end blog-->
+
+
+    <!--map-->
+    <div class="tab-pane fade in" id="map">
+    <div class="container-fluid"> 
+      <div class="row-fluid">
+        <div id="map-outer-container">
+          <h1>Map</h1>
+<!--           <div id="crosshair"><div class="mark">+</div></div> -->
+          <div class="ts-map mm zoompan zoomwheel streetlevel zoombox attribution watermark" id="map-container">
+  <!--                 <a href="http://mapbox.com" target="_blank" class="mapbox-watermark">MapBox</a> -->
+            <a href="#" class="zoomer zoomin">+</a><a href="#" class="zoomer zoomout">-</a>
+  <!--                 <div id="map-zoombox-box" class="zoombox-box"></div> -->
+       
+<p class="attribution wax-attribution wax-mm">Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.</p>
+  
+  <!--                 <div id="map-legend">Map Legend</div> -->
+  <!--                 <div id="map-help">?</div> -->
+          </div>
+          <div class="count"></div>
+        </div>
+        
+      </div>
+    </div>
+    <script src="/javascripts/libraries/modestmaps.min.js"></script>
+    <script src="/javascripts/libraries/modestmaps.markers.js"></script>
+    <script src="/javascripts/libraries/wax.mm.min.js"></script>
+    <script src="http://maps.stamen.com/js/tile.stamen.js"></script>
+
+
+</div><!--/end container-fluid-->
+
+      <hr>
+
+      <footer>
+          <div class="container-fluid">      
+          <div class="row-fluid">
+            <div class="span8">
+              <strong>@OaklandTrees</strong>
+              <a href="http://twitter.com/oakland-trees"><img src="images/twitter_icon.png" width="40" title="Twitter" /></a><br />
+                    
+              <strong>Connect on Facebook</strong>
+              <a href="http://facebook.com/oakland-trees"><img src="images/facebook_icon.png" width="40"  title="Facebook" /></a><br />
+              <br />
+              <p>&copy; Oakland Trees 2012</p>
+            </div>
+          </div>
+        </div><!--/end container-fluid-->
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <script type="text/javascript" src="/javascripts/libraries/json2.js"></script>
+    <script type="text/javascript" src="/javascripts/libraries/underscore-min.js"></script>
+    <!-- End page content -->
+    <script src="/libraries/bootstrap/docs/assets/js/bootstrap-transition.js"></script>
+  <!--   <script src="/libraries/bootstrap/docs/assets/js/bootstrap-alert.js"></script> -->
+    <script src="/libraries/bootstrap/docs/assets/js/bootstrap-modal.js"></script>
+    <script src="/libraries/bootstrap/docs/assets/js/bootstrap-dropdown.js"></script>
+   <!--  <script src="/libraries/bootstrap/docs/assets/js/bootstrap-scrollspy.js"></script> -->
+    <script src="/libraries/bootstrap/docs/assets/js/bootstrap-tab.js"></script>
+<!--
+    <script src="/libraries/bootstrap/docs/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/libraries/bootstrap/docs/assets/js/bootstrap-popover.js"></script>
+-->
+    <script src="/libraries/bootstrap/docs/assets/js/bootstrap-button.js"></script>
+<!--
+    <script src="/libraries/bootstrap/docs/assets/js/bootstrap-collapse.js"></script>
+    <script src="/libraries/bootstrap/docs/assets/js/bootstrap-carousel.js"></script>
+    <script src="/libraries/bootstrap/docs/assets/js/bootstrap-typeahead.js"></script>
+-->
+    <script src="/javascripts/custom/core.js"></script>
+    <script src="/javascripts/custom/trees.js"></script>
+    <script src="/javascripts/custom/trees.map.js"></script>
+    <script src="/javascripts/custom/trees.views.js"></script>
+  </body>
+</html>

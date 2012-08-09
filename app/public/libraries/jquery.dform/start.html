@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Get started with jQuery dForm</title>
+</head>
+<style type="text/css">
+    input, label {
+        display: block;
+        margin-bottom: 5px;
+    }
+</style>
+<body>
+<form id="demo-1-form"></form>
+<pre data-for="demo-1"></pre>
+
+<form id="demo-2-form"></form>
+<pre data-for="demo-2"></pre>
+
+<!-- Load jQuery and the minified plugin -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="dist/jquery.dform-0.2.0.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $('script.demo').each(function () {
+            $('pre[data-for="' + $(this).attr('id') + '"]').html($(this).html());
+        });
+    });
+</script>
+<script type="text/javascript" class="demo" id="demo-1">
+$(function () {
+    // Create a form from some JSON
+    $("#demo-1-form").dform({
+        "action":"index.html",
+        "method":"get",
+        "html":[
+            {
+                "type":"p",
+                "html":"You must login"
+            },
+            {
+                "name":"username",
+                "id":"txt-username",
+                "caption":"Username",
+                "type":"text",
+                "placeholder":"E.g. u...@example.com"
+            },
+            {
+                "name":"password",
+                "caption":"Password",
+                "type":"password"
+            },
+            {
+                "type":"submit",
+                "value":"Login"
+            }
+        ]
+    });
+});
+</script>
+<script type="text/javascript" class="demo" id="demo-2">
+$('#demo-2-form').dform({
+    "action":"index.html",
+    "method":"post",
+    "html":[
+        {
+            "type":"fieldset",
+            "caption":"User information",
+            "html":[
+                {
+                    "name":"email",
+                    "caption":"Email address",
+                    "type":"text",
+                    "placeholder":"E.g. user@example.com",
+                    "validate":{
+                        "email":true
+                    }
+                },
+                {
+                    "name":"password",
+                    "caption":"Password",
+                    "type":"password",
+                    "id":"registration-password",
+                    "validate":{
+                        "required":true,
+                        "minlength":5,
+                        "messages":{
+                            "required":"Please enter a password",
+                            "minlength":"At least {0} characters long"
+                        }
+                    }
+                },
+                {
+                    "name":"password-repeat",
+                    "caption":"Repeat password",
+                    "type":"password",
+                    "validate":{
+                        "equalTo":"#registration-password",
+                        "messages":{
+                            "equalTo":"Please repeat your password"
+                        }
+                    }
+                },
+                {
+                    "type":"radiobuttons",
+                    "caption":"Sex",
+                    "name":"sex",
+                    "class":"labellist",
+                    "options":{
+                        "f":"Female",
+                        "m":"Male"
+                    }
+                },
+                {
+                    "type":"checkboxes",
+                    "name":"test",
+                    "caption":"Receive newsletter about",
+                    "class":"labellist",
+                    "options":{
+                        "updates":"Product updates",
+                        "errors":{
+                            "value":"security",
+                            "caption":"Security warnings",
+                            "checked":"checked"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type":"fieldset",
+            "caption":"Address information",
+            "html":[
+                {
+                    "name":"name",
+                    "caption":"Your name",
+                    "type":"text",
+                    "placeholder":"E.g. John Doe"
+                },
+                {
+                    "name":"address",
+                    "caption":"Address",
+                    "type":"text",
+                    "validate":{ "required":true }
+                },
+                {
+                    "name":"zip",
+                    "caption":"ZIP code",
+                    "type":"text",
+                    "size":5,
+                    "validate":{ "required":true }
+                },
+                {
+                    "name":"city",
+                    "caption":"City",
+                    "type":"text",
+                    "validate":{ "required":true }
+                },
+                {
+                    "type":"select",
+                    "name":"continent",
+                    "caption":"Choose a continent",
+                    "options":{
+                        "america":"America",
+                        "europe":{
+                            "selected":"true",
+                            "id":"europe-option",
+                            "value":"europe",
+                            "html":"Europe"
+                        },
+                        "asia":"Asia",
+                        "africa":"Africa",
+                        "australia":"Australia"
+                    }
+                }
+            ]
+        },
+        {
+            "type":"submit",
+            "value":"Signup"
+        }
+    ]
+});
+</script>
+</body>
+</html>
