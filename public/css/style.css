@@ -22,8 +22,6 @@ body {
 @media (min-width: 1200px) { 
 }
 
-
-
 #map-outer-container {
 	height: 100%;
 }
@@ -34,22 +32,6 @@ body {
   top: 60px;
 }
 
-#profile h1 {
-  font-size: 6em;
-  margin-top: 30px;
-  line-height: 0.5em;
-}
-
-#profile .points {
-  margin-bottom: 4em;
-}
-
-
-.ui-dform-label,
-.ui-dform-div {
-    font-size: 1.0em;
-    margin-bottom: 1em;
-}
 .ui-tooltip-content h2 {
   font-size: 2em;
   margin: 5px;
@@ -72,21 +54,6 @@ body {
   color: #ffffff;
 }
 
-.ui-dform-legend {
-  margin: 0 0 1em 0;
-}
-.ui-dform-radio,
-.ui-dform-checkbox {
-  float: left;
-}
-/*
- @TODO fix - is conflicting with bootstrap
-*/
-.ui-dform-radiobuttons .ui-dform-label,
-.ui-dform-checkboxes .ui-dform-label {
- padding-left: 1.5em;
-}
-
 .hero-unit h1 {
   margin-bottom: 0.2em; 
 }
@@ -94,12 +61,8 @@ body {
 .tagline {
 /*   color: #F5F3DC; */
   font-size: 1.2em;
-  padding: 16px 0 14px 0px;
+  padding: 20px 0 14px 0px;
   text-shadow: none;
-}
-
-footer {
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -107,52 +70,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
 }
 
-.activity .image,
-.activity .message,
-.activity .points {
-  padding: 1em;
-}
-
-.activity,
-.activity a {
-  color: #fff;
-}
-
-.activity .author {
-  font-weight: bold;
-  margin: 0;
-  font-weight: normal;
-  color: inherit;
-  text-rendering: optimizelegibility;
-  font-size: 1em;
-  margin: 0px 0 0.5em 0;
-}
-
-.activity .notice.even {
-  background-color: rgba(256, 256, 256, 0.1);
-}
-
-.activity .notice.odd {
-  background-color: rgba(256, 256, 256, 0.3);
-}
-
 .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
      height: 0; overflow: visible; 
-}
-
-
-form.ui-dform-form {
-  margin: 2em 0;
-}
-
-.challenge-status .active {
-  display:block;
-}
-
-.challenge-status .inactive {
-  display:none;
 }
 
 #page-content {
@@ -177,7 +98,6 @@ h2 {
   color: #333;
 }
 
-
 .ts-map .wax-attribution {
   background: rgba(256,256,256, 0.3);
   color: rgba(0,0,0,0.7);
@@ -194,31 +114,6 @@ h2 {
 input, textarea {
   width: 400px;
 }
-.ui-dform-label h2 {
-  font-size: 300%;
-  margin: 1em 0 0.5em 0;
-}
-
-.ui-dform-label h3 {
-  font-size: 250%;
-  margin: 1em 0 0.5em 0;
-}
-.ui-dform-label h4 {
-  font-size: 200%;
-  margin: 1em 0 0.5em 0;
-}
-
-.ui-dform-label p {
-  font-size: 125%;
-}
-
-.ui-dform-label input {
-  font-size: 125%;
-}
-
-.ui-dform-label a {
-  color: #fff;
-}
 
 .form-label,
 .form-detail {
@@ -227,4 +122,14 @@ input, textarea {
 
 .form-image {
   padding: 0 10px 0 5px;
+}
+
+a {
+  color: #013435;
+  font-weight: bold;
+}
+
+hr {
+border-top: none;
+border-bottom: 2px solid rgba(256,256,256,0.1);
 }
