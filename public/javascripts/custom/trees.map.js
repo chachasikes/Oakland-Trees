@@ -8,6 +8,16 @@ trees.setCenterZoom = function(lat,lon,zoom) {
   if(map.setCenterZoom === undefined) {} else map.setCenterZoom(new MM.Location(lat,lon),zoom);
 };
 
+trees.setMapCenterZoom = function(lat,lon,zoom, map) {
+
+  var map = map;
+  var zoom = zoom;
+  var lat = lat;
+  var lon = lon;
+  if(!map) return;
+  if(map.setCenterZoom === undefined) {} else map.setCenterZoom(new MM.Location(lat,lon),zoom);
+};
+
 trees.setupMap = function() {
   var layer = new MM.StamenTileLayer("watercolor");
   
@@ -22,7 +32,22 @@ trees.setupMap = function() {
 
   trees.map = map = new MM.Map("map-container", layer);
 
-  map.setCenterZoom(new MM.Location(37.7900,-122.1697), 12);
+  if (navigator.geolocation){
+    // listen to updates if any
+    navigator.geolocation.watchPosition( function(position) {
+
+      trees.gps = position;
+
+        trees.gps_lat = trees.gps.coords.latitude;
+        trees.gps_lon = trees.gps.coords.longitude;
+        trees.setMapCenterZoom(trees.gps.coords.latitude, trees.gps.coords.longitude, 14, map);
+
+    });
+  } else {
+    // try get away with only setting map once
+    map.setMapCenterZoom(new MM.Location(37.7900,-122.1697), 12);
+  }
+//  map.setCenterZoom(new MM.Location(37.7900,-122.1697), 12);
 
   // On map move events we want to requery the database to fetch features that the map is now over
 
@@ -80,7 +105,7 @@ trees.makeTreeMarker = function(feature) {
   
   if(feature.properties.Seasonality !== undefined && feature.properties.Seasonality !== null) {
     var seasons = trees.readSeason(feature);
-    treeString += seasons.string;
+    treeString += "<p>In season <strong>" + seasons.list.toString() + "</strong></p>";
   }
 
  /*
@@ -182,15 +207,13 @@ trees.readSeason = function(feature) {
   var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
   var seasonality = feature.properties.Seasonality.split(",");
   var inSeason = {};
+  inSeason.list = [];
   for(var i = 0; i < months.length; i++ ) {
     if(seasonality[i] == 2) {
-      inSeason.list += months[i];
+      inSeason.list += months[i] + " ";
 
     }
   }
-
-  inSeason.string = inSeason.join(",");
-
   return inSeason;
 }
 
