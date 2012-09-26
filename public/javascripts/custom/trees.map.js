@@ -42,7 +42,7 @@ trees.setupMap = function() {
   map.addLayer(markers);
   markers.parent.setAttribute("id", "markers");
 
-  Core.query2("oakland_fruit",trees.paintTreeMarkers);
+  Core.query2("Oakland-Trees-edible",trees.paintTreeMarkers);
   Core.query2("farmers_markets_nocal",trees.paintMarketMarkers);
   Core.query2("berk_oak_sfo_population-csv",trees.paintZipcodeMarkers);
 };
@@ -55,18 +55,36 @@ trees.makeTreeMarker = function(feature) {
  
   var treeString = '';
   treeString += "<h2>" + feature.properties.title + "</h2>";
+/*
   if(feature.properties.address_street !== undefined) {
     treeString += "<h3><strong>" + feature.properties.address_street + "</strong></h3>";
   }
   
+*/
   treeString += "<hr>";
 
-  if(feature.properties.tree_owner !== undefined) {
 
-    treeString += "<p>Tree Owner <strong>" + feature.properties.tree_owner + "</strong></p>";
+  if(feature.properties.species_root !== undefined) {
+    treeString += "<p><em>" + feature.properties.species_root + "</em></p>";
+  }  
+
+  if(feature.properties.edible_fruit_tree !== null && feature.properties.edible_fruit_tree !== undefined) {
+    treeString += "<p>Edible? <strong>" + feature.properties.edible_fruit_tree + "</strong></p>";
+  }  
+  if(feature.properties.graftable !== null && feature.properties.graftable !== "undefined") {
+    treeString += "<p>Graftable? <strong>" + feature.properties.graftable + "</strong></p>";
+  }
+  if(feature.properties.address !== undefined) {
+    treeString += "<p>Address <strong>" + feature.properties.address + " Oakland, CA</strong></p>";
+  }
+  
+  if(feature.properties.Seasonality !== undefined && feature.properties.Seasonality !== null) {
+    var seasons = trees.readSeason(feature);
+    treeString += seasons.string;
   }
 
-  if(feature.stewardship !== undefined) {
+ /*
+ if(feature.stewardship !== undefined) {
     treeString += "<p>Stewardship <strong>" + feature.stewardship + "</strong></p>";
   }  
 
@@ -85,7 +103,12 @@ trees.makeTreeMarker = function(feature) {
   if(feature.properties.steward_name !== undefined || feature.contact_name !== undefined) {
     treeString += "<p>Steward Name <strong>" + feature.contact_name + "</strong></p>";
   }
+*/
 
+  if(feature.properties.tree_owner !== undefined) {
+    treeString += "<p>Tree Owner <strong>" + feature.properties.tree_owner + "</strong></p>";
+  }
+  
   if(feature.properties.datasource !== undefined) {
     treeString += "<p>Data Source <strong>" + feature.properties.datasource + "</strong></p>";
   }
@@ -123,9 +146,13 @@ trees.makeTreeMarker = function(feature) {
   	content: {
       text: treeString,
   	},
+  	show: {
+  		solo: true,
+  		when: { event: 'unfocus' }
+  	},
   	hide: {
   		delay: 100,
-  		when: { event: 'inactive' }
+  		when: { event: 'unfocus' }
   	},
   	position: {
   		my: 'middle left', 
@@ -148,6 +175,23 @@ trees.makeTreeMarker = function(feature) {
   MM.addEvent(marker, "mouseover", trees.onMarkerOver);
   MM.addEvent(marker, "mouseout", trees.onMarkerOut);
   MM.addEvent(marker, "click", trees.onMarkerClick);
+}
+
+trees.readSeason = function(feature) {
+  var feature = feature;
+  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  var seasonality = feature.properties.Seasonality.split(",");
+  var inSeason = {};
+  for(var i = 0; i < months.length; i++ ) {
+    if(seasonality[i] == 2) {
+      inSeason.list += months[i];
+
+    }
+  }
+
+  inSeason.string = inSeason.join(",");
+
+  return inSeason;
 }
 
 trees.makeMarketMarker = function(feature) {

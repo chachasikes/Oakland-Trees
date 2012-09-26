@@ -22,6 +22,14 @@ Chacha Sikes        chachasikes@gmail.com @chachasikes
 Phillip Minnick     phillipminnick@gmail.com
 
 
+8/8/2012 Edible Fruit Tree Data Sprint
+- Made Seasonality CUESA database
+- Looked up some common names for 20,000 Oakland trees
+- Look up more tree databases for Oakland & Berkeley, found none except 20 Mulberry Trees, Urban Releaf 1800 Water restoration tree planting project 2010
+- Decided to make filter for map of what's fruiting
+- Discussed if we'll want Add Tree form (adapted from Lemonopoly)
+- Talked about Parklet -- idea of finding adoptive organization
+
 7/21/2012 Code for Oakland hackathon event
 - We added common names for 11,000+ tree species from USDA Plant Checklist (using Google refine)
 - Geocoded some tree data (but not all) based on address data.
