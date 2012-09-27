@@ -6,8 +6,8 @@ function enginecallback() {
 }
 
 EngineProvider = function() {
-  this.db = new MongoDB('127.0.0.1',27017); //localhost
-  //this.db = new MongoDB('127.12.178.129',27017); //localhost
+  //this.db = new MongoDB('127.0.0.1',27017); //localhost
+  this.db = new MongoDB('127.12.178.129',27017); //localhost
   console.log("server::engine database is " + this.db );
 
 };
