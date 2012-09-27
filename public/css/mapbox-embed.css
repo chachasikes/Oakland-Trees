@@ -123,7 +123,7 @@
 .ts-map .close,
 .ts-map .zoomer {
   text-indent:-9999px;
-  background-image:url(http://a.tiles.mapbox.com/lib/mm/assets/tilestream-pro/images/controls.png);
+  background-image:url(../images/map-controls.png);
   background-position:60px 60px;
   background-repeat:no-repeat;
   overflow:hidden;
@@ -305,7 +305,7 @@
   width:140px;
   height:40px;
   margin:5px auto;
-  background:url(http://a.tiles.mapbox.com/lib/mm/assets/tilestream-pro/images/controls.png) 0px -40px no-repeat;
+  background:url(../images/map-controls.png) 0px -40px no-repeat;
   }
 
 .ts-map .mapbox-watermark {
@@ -318,7 +318,7 @@
   height:20px;
   text-indent:-9999px;
   overflow:hidden;
-  background:url(http://a.tiles.mapbox.com/lib/mm/assets/tilestream-pro/images/controls.png) 0px -90px no-repeat;
+  background:url(../images/map-controls.png) 0px -90px no-repeat;
   }
 
 .ts-map.attribution .mapbox-watermark { bottom:25px; }
@@ -364,5 +364,5 @@ body {
 .ts-map .zoomer,
 .ts-map .close,
 .ts-map .mapbox-watermark,
-.ts-error .mapbox-logo { background-image:url(http://a.tiles.mapbox.com/lib/mm/embed.png); }
+.ts-error .mapbox-logo { background-image:url(../images/map-controls.png); }
 

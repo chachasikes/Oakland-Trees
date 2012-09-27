@@ -6,31 +6,71 @@ a.wax-fullscreen {
   z-index: 99999;
   }
 
-a.zoomer {
-  text-decoration:none;
+.zoomer,
+  .wax-legend,
+  .wax-tooltip {
+  display:block;
   position:absolute;
-  background-color:#444;
-  color:#fff;
-  line-height:25px;
-  font-size:20px;
-  z-index:99999;
-  text-align:center;
-  width:25px;
-  height:25px;
+  border:1px solid #ccc;
+  background:#fff;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  box-shadow:rgba(0,0,0,0.1) 0px 1px 3px;
+  -moz-box-shadow:rgba(0,0,0,0.1) 0px 1px 3px;
+  -webkit-box-shadow:rgba(0,0,0,0.1) 0px 1px 3px;
   }
 
-  a.zoomin {
-    left:5px;
-    }
+  
+/* ### Zoomer, close buttons, share ### */
+ .close,
+ .zoomer {
+  text-indent:-9999px;
+  background-image:url(../images/map-controls.png);
+  background-position:60px 60px;
+  background-repeat:no-repeat;
+  overflow:hidden;
+  }
 
-  a.zoomout {
-    left:35px;
-    }
+ .close:active,
+ .zoomer:active {
+  border-color:#bbb;
+  background-color:#ddd;
+  box-shadow:inset rgba(0,0,0,0.1) 0px 1px 3px;
+  -moz-box-shadow:inset rgba(0,0,0,0.1) 0px 1px 3px;
+  -webkit-box-shadow:inset rgba(0,0,0,0.1) 0px 1px 3px;
+  }
 
-  a.zoomdisabled {
-    background-color:#333;
-    }
+ .close {
+  top:4px;
+  right:4px;
+  width:18px;
+  height:18px;
+  background-position:-6px -6px;
+  }
 
+ .zoomer {
+  width:28px;
+  height:28px;
+  top:10px;
+  left:10px;
+  z-index: 2;
+  }
+
+ .zoomin {
+  background-position:-31px -1px;
+  left:39px;
+  border-radius:0px 3px 3px 0px;
+  -moz-border-radius:0px 3px 3px 0px;
+  -webkit-border-radius:0px 3px 3px 0px;
+  }
+
+ .zoomout {
+  background-position:-61px -1px;
+  border-radius:3px 0px 0px 3px;
+  -moz-border-radius:3px 0px 0px 3px;
+  -webkit-border-radius:3px 0px 0px 3px;
+  }
 
 .wax-fullscreen-map {
   position:fixed !important;
@@ -62,12 +102,13 @@ a.zoomer {
   background:#333;
   color:#fff;
   padding:10px;
+  -webkit-user-select:auto;
   left:10px;
   top:10px;
   max-width:300px;
   opacity:1;
-  -webkit-transition:opacity .5s;
-  -moz-transition:opacity .5s;
+  -webkit-transition:opacity 150ms;
+  -moz-transition:opacity 150ms;
   }
 
 .wax-movetip {
@@ -80,7 +121,7 @@ a.zoomer {
 }
 
 
-.wax-tooltip.hide { opacity:0; }
+.wax-fade { opacity:0; }
 
 .wax-tooltip .close {
   display:block;
@@ -158,7 +199,3 @@ div.wax-attribution {
 
 
 
-.ts-map .zoomout,
-.ts-map .zoomin {
-  top: 60px;
-}

@@ -57,18 +57,25 @@ app.get('/', function(req, res){
     res.send(zcache['index.html'], {'Content-Type': 'text/html'});
 });
 
-app.get('/trees', function(req, res){
-  //  var trees = require('./public/data/Oakland-Trees-edible.json');
-  //  trees = JSON.parse(trees);
-  
-  var blob = {};
 
 /*
-  var stats = {
-    "$or" : [ { "kind": "claim" } , { "kind" : "tree" }, { "kind": "profile" } ] 
-  };
-  
+app.post("/agent/query", function(req,res) {
+  var blob = req.body;
+  console.log("server:: agent query for many:");
+  console.log(blob);
+  engine.find_many_by(blob,function(error, results) {
+    if(!results || error) {
+      console.log("agent query error");
+      res.send("[]");
+      return;
+    }
+    res.send(results);
+  });
+});
 */
+
+app.post('/trees', function(req, res){
+  var blob = req.body;
 
   engine.find_many_by(blob,function(error, results) {
     if(!results || error) {

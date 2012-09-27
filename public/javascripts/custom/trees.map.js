@@ -19,12 +19,12 @@ trees.setMapCenterZoom = function(lat,lon,zoom, map) {
 };
 
 trees.setupMap = function() {
-  var layer = new MM.StamenTileLayer("watercolor");
+  // var layer = new MM.StamenTileLayer("watercolor");
   
   // If we cannot load the map for some reason then just use a default image
 
   if (layer === undefined) {
-    var layer = new MM.Layer(new MM.MapProvider(function(coord) {
+      var layer = new MM.Layer(new MM.MapProvider(function(coord) {
       var img = parseInt(coord.zoom) +'-r'+ parseInt(coord.row) +'-c'+ parseInt(coord.column) + '.jpg';
       return 'http://osm-bayarea.s3.amazonaws.com/' + img;
     }));
@@ -49,7 +49,7 @@ trees.setupMap = function() {
     map.setMapCenterZoom(new MM.Location(37.7900,-122.1697), 12);
   }
 */
-  map.setCenterZoom(new MM.Location(37.7900,-122.1697), 12);
+  
 
   // On map move events we want to requery the database to fetch features that the map is now over
 
@@ -69,9 +69,19 @@ trees.setupMap = function() {
   map.addLayer(markers);
   markers.parent.setAttribute("id", "markers");
 
-  Core.query2("Oakland-Trees-edible",trees.paintTreeMarkers);
-  Core.query2("farmers_markets_nocal",trees.paintMarketMarkers);
-  Core.query2("berk_oak_sfo_population-csv",trees.paintZipcodeMarkers);
+  //http://www.mongodb.org/display/DOCS/Geospatial+Indexing
+  var lat = 37.8044;
+  var lon = -122.2697;
+  var near = {coordinates : { "$near" : [lon,lat]}};  
+
+//  Core.query({"coordinates" : { "$near" : [lon,lat]}}, trees.paintTreeMarkers);
+  Core.query({}, trees.paintTreeMarkers);  
+
+
+  map.setCenterZoom(new MM.Location(lat,lon), 15);
+
+  //Core.query2("/public/data/farmers_markets_nocal.json",trees.paintMarketMarkers);
+  //Core.query2("/public/data/berk_oak_sfo_population-csv.json",trees.paintZipcodeMarkers);
 };
 
 
@@ -363,13 +373,21 @@ trees.makeZipcodeMarker = function(feature) {
 
 
 trees.paintTreeMarkers = function(features) {
-  features = features.features;
+
+/* {"name": "trees","type":"FeatureCollection","features":[ */
+
+  features = features;
   var len = features.length; 
   console.log("trees::paintTreeMarkers showing markers " + len );
   for (var i = 0; i < len; i++) {
     var feature = features[i];
     trees.makeTreeMarker(feature);
   }
+  
+    var locations = map.getExtent(); // returns an array of Locations
+var loc = map.getCenter() // returns a single Location
+var zoomLevel = map.getZoom();
+  
 };
 
 trees.paintMarketMarkers = function(features) {
