@@ -32,6 +32,7 @@ trees.setupMap = function() {
 
   trees.map = map = new MM.Map("map-container", layer);
 
+/*
   if (navigator.geolocation){
     // listen to updates if any
     navigator.geolocation.watchPosition( function(position) {
@@ -47,7 +48,8 @@ trees.setupMap = function() {
     // try get away with only setting map once
     map.setMapCenterZoom(new MM.Location(37.7900,-122.1697), 12);
   }
-//  map.setCenterZoom(new MM.Location(37.7900,-122.1697), 12);
+*/
+  map.setCenterZoom(new MM.Location(37.7900,-122.1697), 12);
 
   // On map move events we want to requery the database to fetch features that the map is now over
 

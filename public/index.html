@@ -163,7 +163,6 @@
       <div class="row-fluid">
         <div id="map-outer-container">
           <h1>Map</h1>
-<!--           <div id="crosshair"><div class="mark">+</div></div> -->
           <div class="ts-map mm zoompan zoomwheel streetlevel zoombox attribution watermark" id="map-container">
   <!--                 <a href="http://mapbox.com" target="_blank" class="mapbox-watermark">MapBox</a> -->
             <a href="#" class="zoomer zoomin">+</a><a href="#" class="zoomer zoomout">-</a>
@@ -171,8 +170,23 @@
        
 <p class="attribution wax-attribution wax-mm">Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.</p>
   
-  <!--                 <div id="map-legend">Map Legend</div> -->
-  <!--                 <div id="map-help">?</div> -->
+            <select id="map-options" class="nav nav-pills">
+              <option value="all">All</option>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+          </div>
+
           </div>
           <div class="count"></div>
         </div>

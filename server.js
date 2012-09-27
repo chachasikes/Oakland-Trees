@@ -3,6 +3,13 @@
 var fs      = require('fs');
 var express = require('express');
 
+
+var EngineProvider = require('./engine').EngineProvider;
+var engine         = new EngineProvider();
+
+
+var _ = require('underscore')._;
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 // oakland trees configuration
 /////////////////////////////////////////////////////////////////////////////////////////////
@@ -49,6 +56,48 @@ app.dynamicHelpers({
 app.get('/', function(req, res){
     res.send(zcache['index.html'], {'Content-Type': 'text/html'});
 });
+
+app.get('/trees', function(req, res){
+  //  var trees = require('./public/data/Oakland-Trees-edible.json');
+  //  trees = JSON.parse(trees);
+  
+  var blob = {};
+
+/*
+  var stats = {
+    "$or" : [ { "kind": "claim" } , { "kind" : "tree" }, { "kind": "profile" } ] 
+  };
+  
+*/
+
+  engine.find_many_by(blob,function(error, results) {
+    if(!results || error) {
+      console.log("agent query error");
+      res.send("[]");
+      return;
+    }
+    res.send(results);
+  });
+    
+    //filter by location
+/*
+    var lat = 37.7900;
+    var lon = -122.1697;
+    var limit = 300;
+console.log(trees.length);
+    // limit by reduced length lat/lon
+    for (var i = 0; i < trees.length; i++) {
+      var feature = trees[i];
+      var lat_round = Math.round(parseFloat(feature.latitude)*Math.pow(10,4))/Math.pow(10,4);
+console.log(lat_round);
+    }
+*/
+            
+ //   res.send(trees);
+    
+    // change to load api version of the trees.
+});
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 // openshift internal routes
