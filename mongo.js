@@ -8,6 +8,9 @@ MongoDB = function(host, port) {
   this.db= new Db('trees', new Server(host, port, {auto_reconnect: true}, {}));
   this.db.open(function(err,db){
     console.log("mongodb:: got db " + err + " " + db );
+    db.authenticate("admin","x2wNxpMSvfUJ", function(err2,db2) {
+      console.log("mongodb::auth got db " + err2 + " " + db2 );
+    });
   });
 };
 
