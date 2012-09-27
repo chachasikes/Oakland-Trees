@@ -19,7 +19,7 @@ trees.setMapCenterZoom = function(lat,lon,zoom, map) {
 };
 
 trees.setupMap = function() {
-  var layer = new MM.StamenTileLayer("watercolor");
+  // var layer = new MM.StamenTileLayer("watercolor");
   
   // If we cannot load the map for some reason then just use a default image
 
@@ -70,13 +70,14 @@ trees.setupMap = function() {
   markers.parent.setAttribute("id", "markers");
 
   //http://www.mongodb.org/display/DOCS/Geospatial+Indexing
-  var lat = 37.80440001;
-  var lon = -122.26970001;
-  var near = {coordinates : { "$near" : [lon,lat]}};  
+  var lat = 37.8053;
+  var lon = -122.2725;
+  //Core.query({"coordinates" : { "$near" : [lon,lat]}}, trees.paintTreeMarkers);
 
-  Core.query({"coordinates" : { "$near" : [lon,lat]}}, trees.paintTreeMarkers);
-  // Core.query({}, trees.paintTreeMarkers);  
 
+//  Core.query({ "properties": {"$or" : [ { "zipcode": "94607" } , { "zipcode": "94606" }, { "zipcode": "94609" }, { "zipcode": "94612" }, { "zipcode": "94610" } ] }}, trees.paintTreeMarkers);  
+
+  Core.query({}, trees.paintTreeMarkers);  
 
   map.setCenterZoom(new MM.Location(lat,lon), 15);
 

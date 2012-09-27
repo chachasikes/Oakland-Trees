@@ -1,0 +1,133 @@
+=== List of Trees in Oakland by Common Name ===
+
+Planetree 3788
+Sweetgum 3312
+Callery Pear 2683
+Flowering Plum 2060
+Crapemyrtle 1953
+Evergreen Pear 1427
+Southern Magnolia 1375
+Raywood Ash 1327
+Chinese Pistache 1150
+Unknown 1123
+Maple 973
+Plum Species 882
+Ash 824
+Other 763
+Vinegartree 632
+Maidenhair Tree 576
+Hackberry 567
+Shrub 565
+Washington Hawthorn 549
+Camphortree 522
+Oak 479
+Dead 452
+Fern Pine 425
+Redbud 421
+Brazilian Peppertree 370
+Jacaranda 365
+Chinese Elm 345
+Water-gum 313
+Washington Fan Palm 274
+Japanese Flowering Cherry 262
+Bottlebrush 243
+Birch 232
+Honeylocust 224
+Hawthorn 213
+Chinese Tallow 201
+Cabbage Tree189
+Canary Island Date Palm188
+Mayten184
+Apple179
+Locust178
+Dogwood175
+Silktree171
+Australian Cheesewood156
+St. John's Bread156
+Cypress152
+Blackwood146
+California Live Oak141
+Japanese Maple133
+Silkoak121
+Peruvian Peppertree110
+Mediterranean Cypress109
+Indian Laurel108
+African Olive102
+Snow-in-Summer100
+American Elm97
+Oleander96
+Stump90
+Brush Cherry79
+White Mulberry77
+Drummond's Maple76
+Japanese Flowering Crab Apple76
+Japanese Privet76
+Black gum75
+Loquat75
+Tuliptree71
+Pine69
+Red Horse-chestnut68
+Cedar67
+White Alder64
+Holly Oak58
+European White Birch56
+Ngaio Tree56
+European Beech54
+Black Locust52
+Citrus50
+California Sycamore48
+Redwood48
+Sweet Bay47
+Bigleaf Maple46
+Juniper46
+Glossy Privet42
+Redbox33
+Cork Oak32
+California Fan Palm31
+Chinese Windmill Palm31
+Moundlily Yucca31
+Palm30
+African Sumac29
+Japanese Zelkova29
+Eucalyptus24
+Italian Stone Pine 20
+Chinese Magnolia 18
+Monterey Pine 17
+Cootamundra Wattle 16
+Weeping Fig 16
+Eurabbie 15
+Edible Fig 13
+Fig 9
+Fruit Tree 9
+Magnolia 8
+Queen palm 7
+Canary Island Pine 6
+Whiteflower Kurrajong 6
+Almond 5
+California Buckeye 5
+Elm 5
+Pin Oak 5
+Carolina Laurelcherry 4
+Cherry Laurel 4
+Incense Cedar 4
+Agave 3
+California Laurel 3
+Guava 3
+Japanese Persimmon 3
+Lacebark 3
+Thorn Apple 3
+Apricot 2
+Arizona Boxelder 2
+Bonsai 2
+Camellia 2
+Common Lilac 2
+Deodar Cedar 2
+European Mountain Ash 2
+Feijoa 2
+Silverleaf Mountain Gum 2
+Sweet Michelia 2
+TBD 2
+Tree Of Heaven 2
+Walnut 2
+Banana 1
+(blank)1679
