@@ -1,0 +1,50 @@
+===Oakland Trees===
+
+Fields
+
+Original Fields from the City of Oakland
+"OBJECTID" - Tree ID number
+
+"WELLWIDTH" -- How wide the area is for the tree roots
+
+"WELLLENGTH" -- How long the area is for the tree roots
+
+"PAREAWIDTH" -- ??
+
+"LOWWELL" -- ??
+
+"SPECIES" -- Species  (includes Genus only, as well as a handful of common names, "stump", "dead", "tbd", "unknown")
+
+"ADDRNUM" -- Address number
+
+"STNAME" -- Street name
+
+
+=== Fields that help us interact with the tree data
+
+latitude - Geocoordinates of the tree, based on the street address. Encoded with the Yahoo Placemaker geocoder.
+
+longitude - Geocoordinates of the tree, based on the street address. Encoded with the Yahoo Placemaker geocoder.
+
+tree_owner - Who owns the tree (Currently null)
+
+datasource - Who provided the data?
+
+Seasonality - Cross-referenced with Bay Area Seasonality Data (experimental) -- A few of the tree species are edible, and we have seasonality data for those. Is a JSON array with boolean values for how in season a fruit is. The map is currently showing the height of the season.
+
+species_root - Cleaned up species information, used for cross-referencing with common name.
+
+common_name - Common name for this tree.
+
+edible_fruit_tree - Parts of the tree are edible? (yes or null)
+
+medicinal (proposed) - Is medicinal? (yes or null)
+
+graft - Can be grafted (yes or null)
+
+
+==== Additional Fields for the map application ====
+
+title
+
+id = OBJECT ID
